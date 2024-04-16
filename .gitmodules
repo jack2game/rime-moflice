@@ -1,0 +1,6 @@
+[submodule "rime-ice"]
+	path = rime-ice
+	url = https://github.com/iDvel/rime-ice.git
+[submodule "rime-moran"]
+	path = rime-moran
+	url = https://github.com/ksqsf/rime-moran
