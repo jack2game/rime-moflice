@@ -11,13 +11,13 @@ rm -rf moflice-chs
 # 生成繁體
 cp -a ./rime-moran/. ./moflice-cht
 
-rm ./moflice-cht/default.yaml
-rm ./moflice-cht/key_bindings.yaml
-rm ./moflice-cht/punctuation.yaml
-rm ./moflice-cht/.git
-rm ./moflice-cht/.gitignore
-rm ./moflice-cht/README.md
-rm ./moflice-cht/README-en.md
+rm -rf ./moflice-cht/default.yaml
+rm -rf ./moflice-cht/key_bindings.yaml
+rm -rf ./moflice-cht/punctuation.yaml
+rm -rf ./moflice-cht/.git
+rm -rf ./moflice-cht/.gitignore
+rm -rf ./moflice-cht/README.md
+rm -rf ./moflice-cht/README-en.md
 rm -rf ./moflice-cht/.github/
 
 cp ./rime-moran/tools/data/zrmdb.txt ./tools-additional
@@ -30,8 +30,12 @@ sed -i "s/^git archive HEAD -o archive.tar/tar -cvf archive.tar .\//g" ./make_si
 sed -i "s/^cp 下载与安装说明/# cp 下载与安装说明/g" ./make_simp_dist.sh
 sed -i "s/^sedi 's\/MORAN_VARIANT\/简体\/'/# sedi 's\/MORAN_VARIANT\/简体\/'/g" ./make_simp_dist.sh
 sed -i 's/^7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on "MoranSimplified-$(date +%Y%m%d).7z" dist/cp -a .\/dist\/. ..\/moflice-chs/g' ./make_simp_dist.sh
+bash -x ./make_simp_dist.sh
 cd ..
 
+# 整理文件結構
+rm -rf ./moflice-cht/tools
+rm -rf ./moflice-cht/make_simp_dist.sh
 mkdir -p ./moflice-cht/ice-dicts/
 mkdir -p ./moflice-chs/ice-dicts/
 
