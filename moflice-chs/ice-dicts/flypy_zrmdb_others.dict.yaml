@@ -18,42 +18,42 @@ sort: by_weight
 空落落的	ks;bg lo;cl lo;cl de;bu
 空落落的	ks;bg lc;cl lc;cl de;bu
 # 「阿房宫」的注音争议比较大
-阿房宫	ee;ek ph;hf gs;bl
-阿房宫	aa;ek ph;hf gs;bl
-阿房宫	ee;ek fh;hf gs;bl
-阿房宫	aa;ek fh;hf gs;bl
-阿房宫赋	ee;ek ph;hf gs;bl fu;bw
-阿房宫赋	aa;ek ph;hf gs;bl fu;bw
-阿房宫赋	ee;ek fh;hf gs;bl fu;bw
-阿房宫赋	aa;ek fh;hf gs;bl fu;bw
+阿房宮	ee;ek ph;hf gs;bl
+阿房宮	aa;ek ph;hf gs;bl
+阿房宮	ee;ek fh;hf gs;bl
+阿房宮	aa;ek fh;hf gs;bl
+阿房宮賦	ee;ek ph;hf gs;bl fu;bw
+阿房宮賦	aa;ek ph;hf gs;bl fu;bw
+阿房宮賦	ee;ek fh;hf gs;bl fu;bw
+阿房宮賦	aa;ek fh;hf gs;bl fu;bw
 # 「伯伯」方言
 伯伯	bo;rb bo;rb
 伯伯	bd;rb bd;rb
 # 「斜」的古音
-远上寒山石径斜	yr;zy uh;ba hj;bd uj;aa ui;pk jk;xg xp;dy
-远上寒山石径斜	yr;zy uh;ba hj;bd uj;aa ui;pk jk;xg xx;dy
+遠上寒山石徑斜	yr;zy uh;ba hj;bd uj;aa ui;pk jk;xg xp;dy
+遠上寒山石徑斜	yr;zy uh;ba hj;bd uj;aa ui;pk jk;xg xx;dy
 # 「骑」目前统读 qi
-坐骑	zo;rt qi;mq
-坐骑	zo;rt ji;mq
-铁骑	tp;ju qi;mq
-铁骑	tp;ju ji;mq
-一骑绝尘	yi;aa qi;mq jt;ss if;xt
-一骑绝尘	yi;aa ji;mq jt;ss if;xt
-一骑当千	yi;aa qi;mq dh;xx qm;pa
-一骑当千	yi;aa ji;mq dh;xx qm;pa
-一骑红尘妃子笑	yi;aa qi;mq hs;sg if;xt fw;nj zi;vh xn;vy
-一骑红尘妃子笑	yi;aa ji;mq hs;sg if;xt fw;nj zi;vh xn;vy
-走单骑	zz;tv dj;bd qi;mq
-走单骑	zz;tv dj;bd ji;mq
-千里走单骑	qm;pa li;tt zz;tv dj;bd qi;mq
-千里走单骑	qm;pa li;tt zz;tv dj;bd ji;mq
+坐騎	zo;rt qi;mq
+坐騎	zo;rt ji;mq
+鐵騎	tp;ju qi;mq
+鐵騎	tp;ju ji;mq
+一騎絕塵	yi;aa qi;mq jt;ss if;xt
+一騎絕塵	yi;aa ji;mq jt;ss if;xt
+一騎當千	yi;aa qi;mq dh;xx qm;pa
+一騎當千	yi;aa ji;mq dh;xx qm;pa
+一騎紅塵妃子笑	yi;aa qi;mq hs;sg if;xt fw;nj zi;vh xn;vy
+一騎紅塵妃子笑	yi;aa ji;mq hs;sg if;xt fw;nj zi;vh xn;vy
+走單騎	zz;tv dj;bd qi;mq
+走單騎	zz;tv dj;bd ji;mq
+千里走單騎	qm;pa li;tt zz;tv dj;bd qi;mq
+千里走單騎	qm;pa li;tt zz;tv dj;bd ji;mq
 # 「街」的粤语和东北话读音及常见的两种写法
 仆街	pu;rb jp;xi
 仆街	pu;rb gd;xi
-扑街	pu;fb jp;xi
-扑街	pu;fb gd;xi
-扑街仔	pu;fb jp;xi zd;rz
-扑街仔	pu;fb gd;xi zd;rz
+撲街	pu;fb jp;xi
+撲街	pu;fb gd;xi
+撲街仔	pu;fb jp;xi zd;rz
+撲街仔	pu;fb gd;xi zd;rz
 仆街仔	pu;rb jp;xi zd;rz
 仆街仔	pu;rb gd;xi zd;rz
 街溜子	jp;xi lq;dl zi;vh
@@ -62,150 +62,150 @@ sort: by_weight
 郭明錤	go;ex mk;oo ji;jq
 郭明錤	go;ex mk;oo qi;jq
 # 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
-李昌镐	li;mz ih;oo hc;jg
-曹世镐	cc;co ui;aa hc;jg
-张镐哲	vh;gi gc;jg ve;kv
-姜成镐	jl;yn ig;wg hc;jg
-姜镐童	jl;yn hc;jg ts;ll
-张镐濂	vh;gi hc;jg lm;dl
-李敏镐	li;mz mb;wm hc;jg
-李陈镐	li;mz if;ed hc;jg
-赵亮镐	vc;zi ll;jb hc;jg
-郑俊镐	vg;eg jy;rw hc;jg
+李昌鎬	li;mz ih;oo hc;jg
+曹世鎬	cc;co ui;aa hc;jg
+張鎬哲	vh;gi gc;jg ve;kv
+姜成鎬	jl;yn ig;wg hc;jg
+姜鎬童	jl;yn hc;jg ts;ll
+張鎬濂	vh;gi hc;jg lm;dl
+李敏鎬	li;mz mb;wm hc;jg
+李陳鎬	li;mz if;ed hc;jg
+趙亮鎬	vc;zi ll;jb hc;jg
+鄭俊鎬	vg;eg jy;rw hc;jg
 
 
 ##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
 ### 错音
-馄饨	hy;uk ty;ut
-馄饨	hy;uk dy;ut
+餛飩	hy;uk ty;ut
+餛飩	hy;uk dy;ut
 主角	vu;dw jt;dy
 主角	vu;dw jn;dy
 角色	jt;dy se;db
 角色	jn;dy se;db
-比萨	bi;bb sa;ci
-比萨	pi;bb sa;ci
-比萨饼	bi;bb sa;ci bk;ub
-比萨饼	pi;bb sa;ci bk;ub
-吃比萨	ii;kq bi;bb sa;ci
-吃比萨	ii;kq pi;bb sa;ci
-说服	uo;yd fu;oy
-说服	uv;yd fu;oy
+比薩	bi;bb sa;ci
+比薩	pi;bb sa;ci
+比薩餅	bi;bb sa;ci bk;ub
+比薩餅	pi;bb sa;ci bk;ub
+喫比薩	ii;kq bi;bb sa;ci
+喫比薩	ii;kq pi;bb sa;ci
+說服	uo;yd fu;oy
+說服	uv;yd fu;oy
 道行	dc;zu hg;xi
 道行	dc;zu hh;xi
-模样	mu;mm yh;my
-模样	mo;mm yh;my
-有模有样	yz;uo mu;mm yz;uo yh;my
-有模有样	yz;uo mo;mm yz;uo yh;my
-一模一样	yi;aa mu;mm yi;aa yh;my
-一模一样	yi;aa mo;mm yi;aa yh;my
-装模作样	vl;yv mu;mm zo;rv yh;my
-装模作样	vl;yv mo;mm zo;rv yh;my
-人模狗样	rf;pd mu;mm gz;qj yh;my
-人模狗样	rf;pd mo;mm gz;qj yh;my
+模樣	mu;mm yh;my
+模樣	mo;mm yh;my
+有模有樣	yz;uo mu;mm yz;uo yh;my
+有模有樣	yz;uo mo;mm yz;uo yh;my
+一模一樣	yi;aa mu;mm yi;aa yh;my
+一模一樣	yi;aa mo;mm yi;aa yh;my
+裝模作樣	vl;yv mu;mm zo;rv yh;my
+裝模作樣	vl;yv mo;mm zo;rv yh;my
+人模狗樣	rf;pd mu;mm gz;qj yh;my
+人模狗樣	rf;pd mo;mm gz;qj yh;my
 模板	mu;mm bj;mf
 模板	mo;mm bj;mf
-阿弥陀佛	ee;ek mi;ge to;et fo;rf
-阿弥陀佛	aa;ek mi;ge to;et fo;rf
-南无阿弥陀佛	na;uy mo;ee ee;ek mi;ge to;et fo;rf
-南无阿弥陀佛	na;uy mo;ee aa;ek mi;ge to;et fo;rf
-南无阿弥陀佛	nj;uy wu;ee ee;ek mi;ge to;et fo;rf
-南无阿弥陀佛	nj;uy wu;ee aa;ek mi;ge to;et fo;rf
-给予	ji;sh yu;aa
-给予	gw;sh yu;aa
-槟榔	bk;mb lh;ml
-槟榔	bb;mb lh;ml
-张柏芝	vh;gi bo;mb vi;cv
-张柏芝	vh;gi bd;mb vi;cv
+阿彌陀佛	ee;ek mi;ge to;et fo;rf
+阿彌陀佛	aa;ek mi;ge to;et fo;rf
+南無阿彌陀佛	na;uy mo;ee ee;ek mi;ge to;et fo;rf
+南無阿彌陀佛	na;uy mo;ee aa;ek mi;ge to;et fo;rf
+南無阿彌陀佛	nj;uy wu;ee ee;ek mi;ge to;et fo;rf
+南無阿彌陀佛	nj;uy wu;ee aa;ek mi;ge to;et fo;rf
+給予	ji;sh yu;aa
+給予	gw;sh yu;aa
+檳榔	bk;mb lh;ml
+檳榔	bb;mb lh;ml
+張柏芝	vh;gi bo;mb vi;cv
+張柏芝	vh;gi bd;mb vi;cv
 藤蔓	tg;ct wj;cm
 藤蔓	tg;ct mj;cm
 弄堂	ls;wc th;xt
 弄堂	ns;wc th;xt
-心宽体胖	xb;dd kr;jb ti;rb pj;ob
-心宽体胖	xb;dd kr;jb ti;rb ph;ob
+心寬體胖	xb;dd kr;jb ti;rb pj;ob
+心寬體胖	xb;dd kr;jb ti;rb ph;ob
 埋怨	mj;tl yr;xy
 埋怨	md;tl yr;xy
-虚与委蛇	xu;hy yu;aa ww;hn yi;it
-虚与委蛇	xu;hy yu;aa ww;hn ue;it
-木讷	mu;ad ne;yn
-木讷	mu;ad na;yn
-独乐乐	du;qi yt;px le;px
-独乐乐	du;qi le;px le;px
-众乐乐	vs;rc yt;px le;px
-众乐乐	vs;rc le;px le;px
-荨麻	qm;cx ma;gl
-荨麻	xy;cx ma;gl
-荨麻疹	xy;cx ma;gl vf;bp
-荨麻疹	qm;cx ma;gl vf;bp
+虛與委蛇	xu;hy yu;aa ww;hn yi;it
+虛與委蛇	xu;hy yu;aa ww;hn ue;it
+木訥	mu;ad ne;yn
+木訥	mu;ad na;yn
+獨樂樂	du;qi yt;px le;px
+獨樂樂	du;qi le;px le;px
+衆樂樂	vs;rc yt;px le;px
+衆樂樂	vs;rc le;px le;px
+蕁麻	qm;cx ma;gl
+蕁麻	xy;cx ma;gl
+蕁麻疹	xy;cx ma;gl vf;bp
+蕁麻疹	qm;cx ma;gl vf;bp
 模具	mu;mm ju;qb
 模具	mo;mm ju;qb
 草薙	cc;cz ti;cv
 草薙	cc;cz vi;cv
 草薙京	cc;cz ti;cv jk;dx
 草薙京	cc;cz vi;cv jk;dx
-草薙剑	cc;cz ti;cv jm;dq
-草薙剑	cc;cz vi;cv jm;dq
-贾平凹	jx;xb pk;gb wa;aa
-贾平凹	jx;xb pk;gb ao;aa
-雪佛兰	xt;yx fu;rf lj;qe
-雪佛兰	xt;yx fo;rf lj;qe
-强劲	ql;gs jk;lg
-强劲	ql;gs jb;lg
-胴体	ds;ot ti;rb
-胴体	ts;ot ti;rb
+草薙劍	cc;cz ti;cv jm;dq
+草薙劍	cc;cz vi;cv jm;dq
+賈平凹	jx;xb pk;gb wa;aa
+賈平凹	jx;xb pk;gb ao;aa
+雪佛蘭	xt;yx fu;rf lj;qe
+雪佛蘭	xt;yx fo;rf lj;qe
+強勁	ql;gs jk;lg
+強勁	ql;gs jb;lg
+胴體	ds;ot ti;rb
+胴體	ts;ot ti;rb
 力能扛鼎	li;gp ng;sb gh;fg dk;od
 力能扛鼎	li;gp ng;sb kh;fg dk;od
-鸭绿江	ya;jn lu;sl jl;dg
-鸭绿江	ya;jn lv;sl jl;dg
+鴨綠江	ya;jn lu;sl jl;dg
+鴨綠江	ya;jn lv;sl jl;dg
 大腹便便	da;ad fu;of pm;rg pm;rg
 大腹便便	da;ad fu;of bm;rg bm;rg
 卡脖子	qx;ub bo;oz zi;vh
 卡脖子	ka;ub bo;oz zi;vh
-吱声	zi;kv ug;um
-吱声	vi;kv ug;um
-掺和	ij;fc ho;hk
-掺和	ij;fc he;hk
-掺和	cj;fc ho;hk
-掺和	cj;fc he;hk
-称职	if;he vi;ev
-称职	ig;he vi;ev
-螺蛳粉	lo;il si;iu ff;mf
-螺蛳粉	lo;il ui;iu ff;mf
-调换	dn;yv hr;fh
-调换	tn;yv hr;fh
+吱聲	zi;kv ug;um
+吱聲	vi;kv ug;um
+摻和	ij;fc ho;hk
+摻和	ij;fc he;hk
+摻和	cj;fc ho;hk
+摻和	cj;fc he;hk
+稱職	if;he vi;ev
+稱職	ig;he vi;ev
+螺螄粉	lo;il si;iu ff;mf
+螺螄粉	lo;il ui;iu ff;mf
+調換	dn;yv hr;fh
+調換	tn;yv hr;fh
 太行山	td;dd hh;xi uj;aa
 太行山	td;dd xk;xi uj;aa
 歇斯底里	xp;qh si;qj di;gd li;tt
 歇斯底里	jp;qh si;qj di;gd li;tt
 暖和	nr;oy ho;hk
 暖和	nr;oy he;hk
-模棱两可	mo;mm lg;mw ll;ad ke;dk
-模棱两可	mo;mm lk;mw ll;ad ke;dk
-鄱阳湖	po;ef yh;eo hu;dh
-鄱阳湖	pj;ef yh;eo hu;dh
-脖颈	bo;oz gg;yg
-脖颈	bo;oz jk;yg
-脖颈儿	bo;oz gg;yg er;pg
-脖颈儿	bo;oz jk;yg er;pg
-结扎	jp;sj za;fg
-结扎	jp;sj va;fg
-海参崴	hd;dm uf;sp wd;uw
-海参崴	hd;dm uf;sp ww;uw
+模棱兩可	mo;mm lg;mw ll;ad ke;dk
+模棱兩可	mo;mm lk;mw ll;ad ke;dk
+鄱陽湖	po;ef yh;eo hu;dh
+鄱陽湖	pj;ef yh;eo hu;dh
+脖頸	bo;oz gg;yg
+脖頸	bo;oz jk;yg
+脖頸兒	bo;oz gg;yg er;pg
+脖頸兒	bo;oz jk;yg er;pg
+結紮	jp;sj za;fg
+結紮	jp;sj va;fg
+海參崴	hd;dm uf;sp wd;uw
+海參崴	hd;dm uf;sp ww;uw
 厚朴	hz;iz po;mb
 厚朴	hz;iz pu;mb
-大宛马	da;ad yr;by ma;vh
-大宛马	da;ad wj;by ma;vh
-龇牙	zi;ic ya;ap
-龇牙	ci;ic ya;ap
-龇着牙	zi;ic ve;yo ya;ap
-龇着牙	ci;ic ve;yo ya;ap
-龇牙咧嘴	zi;ic ya;ap lp;kl zv;kz
-龇牙咧嘴	ci;ic ya;ap lp;kl zv;kz
-头皮屑	tz;dd pi;ya xp;ux
-头皮屑	tz;dd pi;ya xt;ux
+大宛馬	da;ad yr;by ma;vh
+大宛馬	da;ad wj;by ma;vh
+齜牙	zi;ic ya;ap
+齜牙	ci;ic ya;ap
+齜着牙	zi;ic ve;yo ya;ap
+齜着牙	ci;ic ve;yo ya;ap
+齜牙咧嘴	zi;ic ya;ap lp;kl zv;kz
+齜牙咧嘴	ci;ic ya;ap lp;kl zv;kz
+頭皮屑	tz;dd pi;ya xp;ux
+頭皮屑	tz;dd pi;ya xt;ux
 六安	lu;dd an;bn
 六安	lq;dd an;bn
-六安县	lu;dd an;bn xm;qs
-六安县	lq;dd an;bn xm;qs
+六安縣	lu;dd an;bn xm;qs
+六安縣	lq;dd an;bn xm;qs
 六安市	lu;dd an;bn ui;dj
 六安市	lq;dd an;bn ui;dj
 安徽六安	an;bn hv;xw lu;dd an;bn
@@ -215,29 +215,29 @@ sort: by_weight
 安徽省六安市	an;bn hv;xw ug;ou lu;dd an;bn ui;dj
 安徽省六安市	an;bn hv;xw ug;ou lq;dd an;bn ui;dj
 ### 错字
-曾经	cg;bo jk;sg
+曾經	cg;bo jk;sg
 曾今	cg;bo jb;rv
 按捺	an;fa na;fn
 按耐	an;fa nd;ce
 按捺不住	an;fa na;fn bu;ax vu;rv
 按耐不住	an;fa nd;ce bu;ax vu;rv
-别价	bp;dl jp;rj
-别介	bp;dl jp;rd
-甭价	bg;by jp;rj
+別價	bp;dl jp;rj
+別介	bp;dl jp;rd
+甭價	bg;by jp;rj
 甭介	bg;by jp;rd
-血脉贲张	xt;pm md;oy bf;bh vh;gi
-血脉偾张	xt;pm md;oy ff;rb vh;gi
-血脉喷张	xt;pm md;oy pf;kb vh;gi
-契诃夫	qi;dd he;yk fu;er
+血脈賁張	xt;pm md;oy bf;bh vh;gi
+血脈僨張	xt;pm md;oy ff;rb vh;gi
+血脈噴張	xt;pm md;oy pf;kb vh;gi
+契訶夫	qi;dd he;yk fu;er
 契科夫	qi;dd ke;hd fu;er
-凑合	cz;dz he;rk
-凑活	cz;dz ho;du
+湊合	cz;dz he;rk
+湊活	cz;dz ho;du
 巨惠	ju;aa hv;hx
-钜惠	ju;jj hv;hx
+鉅惠	ju;jj hv;hx
 摩羯座	mo;um jp;yh zo;gz
-魔蝎座	mo;mg xp;ih zo;gz
+魔蠍座	mo;mg xp;ih zo;gz
 偌大	ro;rr da;ad
-诺大	no;yr da;ad
+諾大	no;yr da;ad
 
 
 ##### 叠字
@@ -254,14 +254,14 @@ sort: by_weight
 两个人
 两个飞
 两个戈
-两个厶	ll;ad ge;pa si;vd
-两个厶	ll;ad ge;pa mz;vd
+兩個厶	ll;ad ge;pa si;vd
+兩個厶	ll;ad ge;pa mz;vd
 两个又
 两个香
 两个面
 两个兀
 两个女
-两个𡥦	ll;ad ge;pa ni;zz
+兩個𡥦	ll;ad ge;pa ni;zz
 两个臣
 两个巾
 两个左
@@ -269,11 +269,11 @@ sort: by_weight
 两个来
 两个凡
 两个夕
-两个彐	ll;ad ge;pa ji;xt
-两个𢎘	ll;ad ge;pa hj;;
-两个魚	ll;ad ge;pa yu;da
+兩個彐	ll;ad ge;pa ji;xt
+兩個𢎘	ll;ad ge;pa hj;;
+兩個魚	ll;ad ge;pa yu;da
 两个明
-两个朿	ll;ad ge;pa ci;mk
+兩個朿	ll;ad ge;pa ci;mk
 两个乂
 两个曰
 两个尸
@@ -285,7 +285,7 @@ sort: by_weight
 两个吉
 两个马
 两个卅
-两个巛	ll;ad ge;pa ir;vv
+兩個巛	ll;ad ge;pa ir;vv
 两个止
 两个比
 两个言
@@ -293,13 +293,13 @@ sort: by_weight
 两个牛
 两个余
 两个束
-两个罒	ll;ad ge;pa mu;si
-两个㐅	ll;ad ge;pa wu;pd
+兩個罒	ll;ad ge;pa mu;si
+兩個㐅	ll;ad ge;pa wu;pd
 两个金
 两个木
 两个水
 两个火
-两个風	ll;ad ge;pa fg;ji
+兩個風	ll;ad ge;pa fg;ji
 两个石
 两个口
 两个日
@@ -309,20 +309,20 @@ sort: by_weight
 两个百
 两个耳
 两个山
-两个屮	ll;ad ge;pa ie;ck
-两个屮	ll;ad ge;pa cc;ck
+兩個屮	ll;ad ge;pa ie;ck
+兩個屮	ll;ad ge;pa cc;ck
 两个廿
-两个卄	ll;ad ge;pa nm;ck
+兩個卄	ll;ad ge;pa nm;ck
 两个虫
 两个虎
-两个龍	ll;ad ge;pa ls;ad
-两个馬	ll;ad ge;pa ma;vh
+兩個龍	ll;ad ge;pa ls;ad
+兩個馬	ll;ad ge;pa ma;vh
 两个犬
 两个人
 两个入
 两个习
-两个卪	ll;ad ge;pa jp;ed
-两个㔾	ll;ad ge;pa jp;aa
+兩個卪	ll;ad ge;pa jp;ed
+兩個㔾	ll;ad ge;pa jp;aa
 两个几
 两个乙
 两个大
@@ -344,16 +344,16 @@ sort: by_weight
 两个女
 两个又
 两个支
-两个隻	ll;ad ge;pa vi;kb
+兩個只	ll;ad ge;pa vi;kb
 两个古
 两个吉
 两个舌
 两个言
 两个户
 两个启
-两个來	ll;ad ge;pa ld;wb
-两个桼	ll;ad ge;pa qi;mu
-两个旡	ll;ad ge;pa ji;ag
+兩個來	ll;ad ge;pa ld;wb
+兩個桼	ll;ad ge;pa qi;mu
+兩個旡	ll;ad ge;pa ji;ag
 两个夕
 两个歹
 两个匕
@@ -370,16 +370,16 @@ sort: by_weight
 两个竟
 两个竞
 两个兄
-两个見	ll;ad ge;pa jm;ke
-两个貝	ll;ad ge;pa bw;kr
+兩個見	ll;ad ge;pa jm;ke
+兩個貝	ll;ad ge;pa bw;kr
 两个辛
 两个瓜
 两个呆
 两个果
 两个鸟
 两个巢
-两个禺	ll;ad ge;pa yu;od
-两个巿	ll;ad ge;pa fu;aj
+兩個禺	ll;ad ge;pa yu;od
+兩個巿	ll;ad ge;pa fu;aj
 两个句
 两个奇
 两个真
@@ -393,25 +393,25 @@ sort: by_weight
 两个示
 两个至
 两个生
-两个車	ll;ad ge;pa ie;aa
-两个車	ll;ad ge;pa ju;aa
+兩個車	ll;ad ge;pa ie;aa
+兩個車	ll;ad ge;pa ju;aa
 两个足
-两个區	ll;ad ge;pa qu;ki
+兩個區	ll;ad ge;pa qu;ki
 两个香
-两个隹	ll;ad ge;pa vv;rv
+兩個隹	ll;ad ge;pa vv;rv
 两个牟
 两个豕
-两个𠂢	ll;ad ge;pa pd;pp
-两个畐	ll;ad ge;pa fu;at
-两个㣇	ll;ad ge;pa yi;jx
+兩個𠂢	ll;ad ge;pa pd;pp
+兩個畐	ll;ad ge;pa fu;at
+兩個㣇	ll;ad ge;pa yi;jx
 两个邑
-两个堯	ll;ad ge;pa yc;wg
+兩個堯	ll;ad ge;pa yc;wg
 两个秉
-两个倉	ll;ad ge;pa ch;re
-两个東	ll;ad ge;pa ds;qx
+兩個倉	ll;ad ge;pa ch;re
+兩個東	ll;ad ge;pa ds;qx
 两个善
-两个僉	ll;ad ge;pa qm;ra
-两个齒	ll;ad ge;pa ii;vk
+兩個僉	ll;ad ge;pa qm;ra
+兩個齒	ll;ad ge;pa ii;vk
 两个喜
 两个走
 两个止
@@ -423,20 +423,20 @@ sort: by_weight
 两个不
 两个龙
 两个乞
-两个夋	ll;ad ge;pa qy;wb
+兩個夋	ll;ad ge;pa qy;wb
 两个天
 # 三叠字
 三个生
 三个秦
 三个若
-三个雲	sj;aa ge;pa yy;se
+三個雲	sj;aa ge;pa yy;se
 三个人
 三个刀
 三个十
 三个力
 三个原
-三个厶	sj;aa ge;pa si;vd
-三个厶	sj;aa ge;pa mz;vd
+三個厶	sj;aa ge;pa si;vd
+三個厶	sj;aa ge;pa mz;vd
 三个又
 三个口
 三个七
@@ -465,45 +465,45 @@ sort: by_weight
 三个羊
 三个耳
 三个舌
-三个屮	sj;aa ge;pa ie;ck
-三个屮	sj;aa ge;pa cc;ck
+三個屮	sj;aa ge;pa ie;ck
+三個屮	sj;aa ge;pa cc;ck
 三个虫
 三个言
 三个贝
-三个車	sj;aa ge;pa ie;aa
+三個車	sj;aa ge;pa ie;aa
 三个金
-三个隹	sj;aa ge;pa vv;rv
+三個隹	sj;aa ge;pa vv;rv
 三个雷
-三个風	sj;aa ge;pa fg;ji
-三个飛	sj;aa ge;pa fw;yd
+三個風	sj;aa ge;pa fg;ji
+三個飛	sj;aa ge;pa fw;yd
 三个香
 三个马
-三个魚	sj;aa ge;pa yu;da
+三個魚	sj;aa ge;pa yu;da
 三个鹿
-三个龍	sj;aa ge;pa ls;ad
+三個龍	sj;aa ge;pa ls;ad
 三个个
-三个丶	sj;aa ge;pa vu;dm
-三个丶	sj;aa ge;pa dm;dm
+三個丶	sj;aa ge;pa vu;dm
+三個丶	sj;aa ge;pa dm;dm
 三个了
 三个介
 三个企
 三个舍
-三个圥	sj;aa ge;pa lu;uw
+三個圥	sj;aa ge;pa lu;uw
 三个光
 三个兔
 三个全
-三个𠙽	sj;aa ge;pa kk;ku
-三个𠧪	sj;aa ge;pa tn;br
-三个𠧪	sj;aa ge;pa yz;br
-三个㔾	sj;aa ge;pa jp;aa
-三个厡	sj;aa ge;pa yr;iq
+三個𠙽	sj;aa ge;pa kk;ku
+三個𠧪	sj;aa ge;pa tn;br
+三個𠧪	sj;aa ge;pa yz;br
+三個㔾	sj;aa ge;pa jp;aa
+三個厡	sj;aa ge;pa yr;iq
 三个可
 三个因
 三个夏
 三个大
 三个天
 三个太
-三个𦉼	sj;aa ge;pa ku;sd
+三個𦉼	sj;aa ge;pa ku;sd
 三个宝
 三个宜
 三个客
@@ -513,70 +513,70 @@ sort: by_weight
 三个市
 三个文
 三个斗
-三个朿	sj;aa ge;pa ci;mk
+三個朿	sj;aa ge;pa ci;mk
 三个束
 三个林
 三个果
 三个欠
-三个𣥚	sj;aa ge;pa zz;yv
+三個𣥚	sj;aa ge;pa zz;yv
 三个爪
 三个妥
 三个用
 三个甲
 三个百
 三个盖
-三个県	sj;aa ge;pa xm;ox
+三個県	sj;aa ge;pa xm;ox
 三个空
-三个亇	sj;aa ge;pa ge;ra
+三個亇	sj;aa ge;pa ge;ra
 三个竹
-三个罒	sj;aa ge;pa mu;si
-三个羗	sj;aa ge;pa ql;ys
+三個罒	sj;aa ge;pa mu;si
+三個羗	sj;aa ge;pa ql;ys
 三个老
 三个月
 三个至
-三个興	sj;aa ge;pa xk;db
+三個興	sj;aa ge;pa xk;db
 三个足
-三个㖖	sj;aa ge;pa np;kx
-三个門	sj;aa ge;pa mf;dg
+三個㖖	sj;aa ge;pa np;kx
+三個門	sj;aa ge;pa mf;dg
 三个面
-三个頁	sj;aa ge;pa ye;ab
-三个鳥	sj;aa ge;pa nn;pa
+三個頁	sj;aa ge;pa ye;ab
+三個鳥	sj;aa ge;pa nn;pa
 三个男
 三个立
 三个九
 三个也
 三个加
-三个動	sj;aa ge;pa ds;yl
+三個動	sj;aa ge;pa ds;yl
 三个千
 三个方
 三个朔
 三个玉
 三个申
-三个𡿨	sj;aa ge;pa qr;;
+三個𡿨	sj;aa ge;pa qr;;
 三个去
 三个弓
-三个䖝	sj;aa ge;pa is;pi
-三个丿	sj;aa ge;pa pp;px
+三個䖝	sj;aa ge;pa is;pi
+三個丿	sj;aa ge;pa pp;px
 三个户
 三个瓜
 三个鸟
 三个米
 # 四叠字
-四个乂	si;ke ge;pa yi;yi
+四個乂	si;ke ge;pa yi;yi
 四个人
-四个厶	si;ke ge;pa si;vd
-四个厶	si;ke ge;pa mz;vd
+四個厶	si;ke ge;pa si;vd
+四個厶	si;ke ge;pa mz;vd
 四个又
 四个匕
 四个工
 四个口
 四个天
 四个小
-四个屮	si;ke ge;pa ie;ck
-四个屮	si;ke ge;pa cc;ck
+四個屮	si;ke ge;pa ie;ck
+四個屮	si;ke ge;pa cc;ck
 四个火
 四个牛
-四个魚	si;ke ge;pa yu;da
+四個魚	si;ke ge;pa yu;da
 四个月
 四个日
 四个林
@@ -589,18 +589,18 @@ sort: by_weight
 四个困
 四个竹
 四个老
-四个朿	si;ke ge;pa ci;mk
+四個朿	si;ke ge;pa ci;mk
 四个先
 四个金
 四个泉
 四个言
-四个門	si;ke ge;pa mf;dg
+四個門	si;ke ge;pa mf;dg
 四个果
 四个春
-四个車	si;ke ge;pa ie;aa
-四个風	si;ke ge;pa fg;ji
+四個車	si;ke ge;pa ie;aa
+四個風	si;ke ge;pa fg;ji
 四个雷
-四个雲	si;ke ge;pa yy;se
-四个興	si;ke ge;pa xk;db
-四个龍	si;ke ge;pa ls;ad
+四個雲	si;ke ge;pa yy;se
+四個興	si;ke ge;pa xk;db
+四個龍	si;ke ge;pa ls;ad
 四个土
