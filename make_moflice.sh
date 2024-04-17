@@ -106,6 +106,7 @@ python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/others.dict.yaml  -x zrmd
 python3 gen_dict_with_shape.py -i ../rime-ice/cn_dicts/tencent.dict.yaml -x zrmdb -o ../moflice-chs/ice-dicts/flypy_zrmdb_tencent.dict.yaml
 cd ..
 
+echo Moflice繁體設定檔...
 cd moflice-cht
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
@@ -146,7 +147,49 @@ cp moran_sentence.schema.yaml moflice_sentence.schema.yaml
 sed -i "s/^  schema_id: moran_sentence$/  schema_id: moflice_sentence/g" ./moflice_fixed.schema.yaml
 sed -i "s/^  name: 魔然·整句$/  name: Moflice-Sentence/g" ./moflice_fixed.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_fixed.schema.yaml
+cd ..
 
+echo Moflice简体設定檔...
+cd moflice-chs
+cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
+sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
+
+cp moran.schema.yaml moflice.schema.yaml
+sed -i "s/^  schema_id: moran$/  schema_id: moflice/g" ./moflice.schema.yaml
+sed -i "s/^  name: 魔然$/  name: Moflice/g" ./moflice.schema.yaml
+sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    Moflice = Moran + Flypy + Ice/g" ./moflice.schema.yaml
+sed -i "s/^    - moran_fixed$/    - moflice_fixed/g" ./moflice.schema.yaml
+sed -i "s/^    - moran_sentence$/    - moflice_sentence/g" ./moflice.schema.yaml
+
+cp moran_aux.schema.yaml moflice_aux.schema.yaml
+sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
+sed -i "s/^  name: 魔然·輔篩$/  name: Moflice-Aux/g" ./moflice_aux.schema.yaml
+sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_aux.schema.yaml
+sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    Moflice plus aux codes/g" ./moflice_aux.schema.yaml
+
+cp moran_bj.schema.yaml moflice_bj.schema.yaml
+sed -i "s/^  schema_id: moran_bj$/  schema_id: moflice_bj/g" ./moflice_bj.schema.yaml
+sed -i "s/^  name: 魔然·並擊G$/  name: Moflice-Dual-Wielding/g" ./moflice_bj.schema.yaml
+sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_bj.schema.yaml
+sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    Moflice = Moran + Flypy + Ice/g" ./moflice_bj.schema.yaml
+sed -i "s/^    - moran_fixed$/    - moflice_fixed/g" ./moflice_bj.schema.yaml
+sed -i "s/^    - moran_sentence$/    - moflice_sentence/g" ./moflice_bj.schema.yaml
+
+cp moran_fixed.schema.yaml moflice_fixed.schema.yaml
+sed -i "s/^  schema_id: moran_fixed$/  schema_id: moflice_fixed/g" ./moflice_fixed.schema.yaml
+sed -i "s/^  name: 魔然·字詞$/  name: Moflice-Words-and-Phrases/g" ./moflice_fixed.schema.yaml
+sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_fixed.schema.yaml
+
+cp moran_sentence.schema.yaml moflice_sentence.schema.yaml
+sed -i "s/^  schema_id: moran_sentence$/  schema_id: moflice_sentence/g" ./moflice_fixed.schema.yaml
+sed -i "s/^  name: 魔然·整句$/  name: Moflice-Sentence/g" ./moflice_fixed.schema.yaml
+sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_fixed.schema.yaml
 cd ..
 
 # 删除冗餘魔然dict

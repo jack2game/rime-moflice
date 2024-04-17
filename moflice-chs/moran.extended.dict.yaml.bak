@@ -9,12 +9,6 @@ use_preset_vocabulary: false
 import_tables:
   - moran.chars      # 自然碼單字表
   - moran.words      # 本方案補充詞
-  # - ice-dicts/flypy_zrmdb_8105      # 8105字表
-  # - ice-dicts/flypy_zrmdb_41448     # 41448字表
-  - ice-dicts/flypy_zrmdb_base     # 基础词库
-  - ice-dicts/flypy_zrmdb_ext      # 扩展词库
-  - ice-dicts/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）
-  # - ice-dicts/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开
   - moran.essay      # Rime 八股文詞庫
   - moran.thuocl     # THUOCL 詞庫
   - moran.tencent    # 騰訊詞庫
