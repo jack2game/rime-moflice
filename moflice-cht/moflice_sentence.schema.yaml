@@ -1,10 +1,11 @@
 schema:
-  schema_id: moran_sentence
-  name: 魔然·整句
+  schema_id: moflice_sentence
+  name: Moflice-Sentence
   version: "20240115"
   author:
     - 自然碼發明人：周志農
     - 方案製作：ksqsf
+    - Integrator：jack2game
   description: |
     無簡快碼的輸入純粹整句輸入模式。
   dependencies:
