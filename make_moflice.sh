@@ -156,7 +156,7 @@ sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105�
 sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
 
 cp moran.schema.yaml moflice.schema.yaml
@@ -187,9 +187,9 @@ sed -i "s/^  name: 魔然·字詞$/  name: Moflice-Words-and-Phrases/g" ./moflic
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_fixed.schema.yaml
 
 cp moran_sentence.schema.yaml moflice_sentence.schema.yaml
-sed -i "s/^  schema_id: moran_sentence$/  schema_id: moflice_sentence/g" ./moflice_fixed.schema.yaml
-sed -i "s/^  name: 魔然·整句$/  name: Moflice-Sentence/g" ./moflice_fixed.schema.yaml
-sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_fixed.schema.yaml
+sed -i "s/^  schema_id: moran_sentence$/  schema_id: moflice_sentence/g" ./moflice_sentence.schema.yaml
+sed -i "s/^  name: 魔然·整句$/  name: Moflice-Sentence/g" ./moflice_sentence.schema.yaml
+sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_sentence.schema.yaml
 cd ..
 
 # 删除冗餘魔然dict
