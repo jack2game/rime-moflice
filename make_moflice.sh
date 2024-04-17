@@ -5,8 +5,8 @@ set -x
 
 # BUILD_TYPE="$1"
 
-rm -rf moflice-cht
 rm -rf moflice-chs
+rm -rf moflice-cht
 
 # 生成繁體
 cp -a ./rime-moran/. ./moflice-cht
@@ -24,7 +24,6 @@ cp ./rime-moran/tools/data/zrmdb.txt ./tools-additional
 sed -i 's/ /\t/g' ./tools-additional/zrmdb.txt
 
 # 生成簡體
-
 cd ./moflice-cht/
 sed -i "s/^git archive HEAD -o archive.tar/tar -cvf archive.tar .\//g" ./make_simp_dist.sh
 sed -i "s/^cp 下载与安装说明/# cp 下载与安装说明/g" ./make_simp_dist.sh
@@ -38,6 +37,8 @@ rm -rf ./moflice-cht/tools
 rm -rf ./moflice-cht/make_simp_dist.sh
 mkdir -p ./moflice-cht/ice-dicts/
 mkdir -p ./moflice-chs/ice-dicts/
+cp ./tools-additional/default.custom.yaml ./moflice-cht
+cp ./tools-additional/default.custom.yaml ./moflice-chs
 
 cd ./tools-additional
 # 生成繁體霧凇
