@@ -36,13 +36,13 @@ def remove_dupe(input_lists):
 
 def rewrite_row(rows):
     replacement_dict = {
-        '㇆': '折',
-        '𠃊': '折',
-        '㇉': '折',
-        '𠃋': '折',
-        '𠃑': '折',
-        '𠄌': '提',
-        '⺆': '月',
+        '㇆': '哲',
+        '𠃊': '哲',
+        '㇉': '哲',
+        '𠃋': '哲',
+        '𠃑': '哲',
+        '𠄌': '蹄',
+        '⺆': '越',
         '卩': '耳',
         '阝': '耳',
         '行': '形',
@@ -95,7 +95,7 @@ def main():
 
     out_rows = generate_chaizi(rows, libs)
     out_rows = remove_dupe(out_rows)
-    out_rows = libs
+    # out_rows = libs
 
     output_file = args.output_file
     with open(output_file, "w", newline="", encoding='UTF-8') as f:
