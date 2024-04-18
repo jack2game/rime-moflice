@@ -4,3 +4,6 @@
 [submodule "rime-moran"]
 	path = rime-moran
 	url = https://github.com/ksqsf/rime-moran
+[submodule "chaizi"]
+	path = chaizi
+	url = https://github.com/jack2game/chaizi.git
