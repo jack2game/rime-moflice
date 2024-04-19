@@ -41,12 +41,18 @@ def rewrite_row(rows):
         '㇉': '哲',
         '𠃋': '哲',
         '𠃑': '哲',
+        '乚': '哲',
         '𠄌': '蹄',
         '⺆': '越',
         '卩': '耳',
         '阝': '耳',
         '行': '形',
         '彳': '人',
+        '一': '横',
+        '丨': '竖',
+        '丶': '点',
+        '丿': '撇',
+        '乀': '捺',
     }
     for i, row in enumerate(rows):
         original_text = row[1]
@@ -87,8 +93,11 @@ def main():
     for i, lib in enumerate(libs):
         if len(lib) > 1:
             lib[1] = lib[1][0:2]
-            libs[i] = lib[0:2]
-    libs = [sublist for sublist in libs if len(sublist) == 2 and len(sublist[0]) == 1]
+            libs[i] = lib[0:3]+[i] # add index to the sublist
+    libs = [sublist for sublist in libs if len(sublist) == 4 and len(sublist[0]) == 1]
+    libs = sorted(libs, key=lambda x: (x[0], -int(x[2]), int(x[3])))
+    for i, lib in enumerate(libs):
+        libs[i] = lib[0:2]
 
     # remove dupe
     libs = remove_dupe(libs)
