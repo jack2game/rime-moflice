@@ -123,6 +123,10 @@ sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" .
 sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    Moflice = Moran + Flypy + Ice/g" ./moflice.schema.yaml
 sed -i "s/^    - moran_fixed$/    - moflice_fixed/g" ./moflice.schema.yaml
 sed -i "s/^    - moran_sentence$/    - moflice_sentence/g" ./moflice.schema.yaml
+sed -i "s/^(    - zrlf)$/\1\n    - radical/g" ./moflice.schema.yaml
+sed -i "s/^(    - reverse_lookup_translator@reverse_zrlf)$/\1\n    - reverse_lookup_translator@reverse_radical/g" ./moflice.schema.yaml
+sed -i "s/^(reverse_lookup:)$/reverse_radical:\n  tag: reverse_radical\n  dictionary: radical\n  enable_completion: true\n  prefix: \"ocz\"\n  tips: 〔拆字〕\n  __include: reverse_format\n\n\1/g" ./moflice.schema.yaml
+
 
 cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml

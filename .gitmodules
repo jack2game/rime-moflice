@@ -9,4 +9,7 @@
 	url = https://github.com/jack2game/chaizi.git
 [submodule "rime-radical-pinyin"]
 	path = rime-radical-pinyin
-	url = https://github.com/mirtlecn/rime-radical-pinyin.git
+	url = https://github.com/jack2game/rime-radical-pinyin.git
+[submodule "destination/folder"]
+	path = destination/folder
+	url = https://github.com/iDvel/rime-ice.git

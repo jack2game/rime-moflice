@@ -34,7 +34,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-04-06"
+version: "2024-04-19"
 sort: by_weight
 ...
 ### 按需启用
@@ -751,8 +751,8 @@ sort: by_weight
 鯧	ih;yi	98
 鱨	ih;yi	0
 鋹	ih;ji	0
+超	ic;zv	839240
 朝	ic;uo	709793
-超	ic;zv	383924
 潮	ic;di	139090
 吵	ic;ku	117058
 嘲	ic;ki	67228
@@ -2573,8 +2573,8 @@ sort: by_weight
 烠	hv;hy	0
 譓	hv;yh	0
 鏏	hv;jh	0
-婚	hy;nh	386955
 混	hy;dk	338565
+婚	hy;nh	306955
 魂	hy;yg	291928
 昏	hy;ou	197245
 渾	hy;dj	175322
@@ -3123,13 +3123,13 @@ sort: by_weight
 桕	jq;mj	120
 氿	jq;dj	3
 㠇	jq;uj	0
-句	ju;pk	754300
-居	ju;ug	627014
-舉	ju;xf	493503
+巨	ju;aa	753729
+舉	ju;xf	693503
+居	ju;ug	527014
 局	ju;uk	461034
-巨	ju;aa	453729
 具	ju;qb	433976
 據	ju;fj	405279
+句	ju;pk	254300
 聚	ju;yq	222383
 劇	ju;dj	220880
 距	ju;zj	193245
@@ -5017,14 +5017,14 @@ sort: by_weight
 䓫	qi;cq	0
 𨙸	qi;ve	0
 軝	qi;iu	0
-卡	qx;ub	0
-恰	qx;xh	0
-拤	qx;fk	0
-掐	qx;fx	0
-洽	qx;dh	0
-葜	qx;cq	0
-袷	qx;yh	0
-髂	qx;gk	0
+卡	qx;ub	5555
+恰	qx;xh	3333
+掐	qx;fx	2222
+洽	qx;dh	1111
+拤	qx;fk	2
+葜	qx;cq	1
+袷	qx;yh	1
+髂	qx;gk	1
 前	qm;qd	3967855
 錢	qm;jj	1034329
 千	qm;pa	794964
@@ -5448,11 +5448,11 @@ sort: by_weight
 爇	ro;cr	35
 蒻	ro;cr	20
 鄀	ro;er	8
-薩	sa;ci	151844
 撒	sa;fs	140910
 灑	sa;dx	96761
 颯	sa;lf	12008
 仨	sa;rs	5719
+薩	sa;ci	5184
 卅	sa;ia	1019
 靸	sa;gj	168
 挲	sa;uu	100
@@ -5593,7 +5593,6 @@ sort: by_weight
 鞘	uc;gx	1
 柖	uc;mv	0
 玿	uc;wv	0
-社	ue;tu	476704
 射	ue;uc	386983
 設	ue;yu	369436
 舍	ue;ru	276743
@@ -5601,6 +5600,7 @@ sort: by_weight
 舌	ue;qk	115405
 涉	ue;db	80705
 攝	ue;fn	80547
+社	ue;tu	76704
 奢	ue;dv	32985
 懾	ue;xn	20266
 赦	ue;wi	16333
@@ -6096,13 +6096,13 @@ sort: by_weight
 澹	tj;dy	1
 榃	tj;tl	0
 磹	tj;ut	0
-唐	th;gk	239749
 躺	th;uu	220026
 湯	th;dy	124040
-趟	th;zu	65492
 糖	th;mt	60725
+趟	th;zu	55492
 燙	th;ht	41461
 堂	th;xt	40819
+唐	th;gk	39749
 膛	th;ot	37836
 倘	th;ru	34043
 淌	th;du	33568
@@ -6126,9 +6126,9 @@ sort: by_weight
 鐋	th;jt	5
 䣘	th;et	0
 鄌	th;et	0
+套	tc;di	478641
 逃	tc;zv	388318
 討	tc;yc	282187
-套	tc;di	278641
 桃	tc;mv	107204
 濤	tc;du	105605
 掏	tc;ft	102071
@@ -6357,9 +6357,9 @@ sort: by_weight
 忳	ty;xt	8
 焞	ty;hx	5
 褪	ty;yt	1
+拖	to;fy	463823
 脫	to;od	375299
 託	to;ft	267516
-拖	to;fy	163823
 妥	to;vn	67901
 拓	to;fu	63143
 陀	to;et	30349
@@ -8053,8 +8053,8 @@ sort: by_weight
 瘵	vd;bj	34
 祭	vd;ou	1
 豸	vd;vi	1
-戰	vj;gv	1924225
 站	vj;lv	994038
+戰	vj;gv	924225
 展	vj;uy	570379
 佔	vj;bk	246282
 斬	vj;ji	102461

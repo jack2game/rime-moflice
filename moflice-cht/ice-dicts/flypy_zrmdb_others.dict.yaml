@@ -8,7 +8,7 @@
 #
 ---
 name: others
-version: "2024-03-20"
+version: "2024-04-19"
 sort: by_weight
 ...
 ##### 容错词
@@ -208,12 +208,20 @@ sort: by_weight
 六安縣	lq;dd an;bn xm;qs
 六安市	lu;dd an;bn ui;dj
 六安市	lq;dd an;bn ui;dj
+六合區	lu;dd he;rk qu;ki
+六合區	lq;dd he;rk qu;ki
 安徽六安	an;bn hv;xw lu;dd an;bn
 安徽六安	an;bn hv;xw lq;dd an;bn
 安徽六安市	an;bn hv;xw lu;dd an;bn ui;dj
 安徽六安市	an;bn hv;xw lq;dd an;bn ui;dj
 安徽省六安市	an;bn hv;xw ug;ou lu;dd an;bn ui;dj
 安徽省六安市	an;bn hv;xw ug;ou lq;dd an;bn ui;dj
+南京六合	nj;uy jk;dx lu;dd he;rk
+南京六合	nj;uy jk;dx lq;dd he;rk
+南京六合區	nj;uy jk;dx lu;dd he;rk qu;ki
+南京六合區	nj;uy jk;dx lq;dd he;rk qu;ki
+南京市六合區	nj;uy jk;dx ui;dj lu;dd he;rk qu;ki
+南京市六合區	nj;uy jk;dx ui;dj lq;dd he;rk qu;ki
 ### 错字
 曾經	cg;bo jk;sg
 曾今	cg;bo jb;rv
