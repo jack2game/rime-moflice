@@ -1,15 +1,6 @@
-[submodule "rime-ice"]
-	path = rime-ice
-	url = https://github.com/iDvel/rime-ice.git
 [submodule "rime-moran"]
 	path = rime-moran
 	url = https://github.com/ksqsf/rime-moran
-[submodule "chaizi"]
-	path = chaizi
-	url = https://github.com/jack2game/chaizi.git
 [submodule "rime-radical-pinyin"]
 	path = rime-radical-pinyin
 	url = https://github.com/jack2game/rime-radical-pinyin.git
-[submodule "destination/folder"]
-	path = destination/folder
-	url = https://github.com/iDvel/rime-ice.git
