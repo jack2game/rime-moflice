@@ -4,3 +4,6 @@
 [submodule "rime-radical-pinyin"]
 	path = rime-radical-pinyin
 	url = https://github.com/jack2game/rime-radical-pinyin.git
+[submodule "rime-ice"]
+	path = rime-ice
+	url = https://github.com/iDvel/rime-ice.git
