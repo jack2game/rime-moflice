@@ -26,8 +26,8 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
+  - name: traditionalization
+    states: [ 汉字, 漢字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: extended_charset
@@ -116,7 +116,7 @@ translator:    # 整句輸入模式設置，在 top_translator 中被調用
     - xform/([a-z][a-z][a-z][a-z])o/$1°/
 
 fixed:         # 固頂輸入模式設置，在 top_translator 中被調用
-  dictionary: moran_fixed
+  dictionary: moran_fixed_simp
   initial_quality: 100
   enable_completion: false
   enable_sentence: false
@@ -155,8 +155,8 @@ japanese:
     - xform/.*//
 
 simplifier:
-  option_name: simplification
-  opencc_config: moran_t2s.json
+  option_name: traditionalization
+  opencc_config: s2t.json
 
 chaifen:
   option_name: chaifen

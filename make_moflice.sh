@@ -10,6 +10,8 @@ rm -rf moflice-cht
 
 # 生成繁體
 cp -a ./rime-moran/. ./moflice-cht
+cp ./rime-radical-pinyin/radical.schema.yaml ./moflice-cht
+cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./moflice-cht
 
 rm -rf ./moflice-cht/default.yaml
 rm -rf ./moflice-cht/key_bindings.yaml
@@ -108,6 +110,9 @@ cd ..
 
 echo Moflice繁體設定檔...
 cd moflice-cht
+cp recipe.yaml recipe.yaml.bak
+sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
+
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
@@ -123,10 +128,12 @@ sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" .
 sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    Moflice = Moran + Flypy + Ice/g" ./moflice.schema.yaml
 sed -i "s/^    - moran_fixed$/    - moflice_fixed/g" ./moflice.schema.yaml
 sed -i "s/^    - moran_sentence$/    - moflice_sentence/g" ./moflice.schema.yaml
-sed -i "s/^(    - zrlf)$/\1\n    - radical/g" ./moflice.schema.yaml
-sed -i "s/^(    - reverse_lookup_translator@reverse_zrlf)$/\1\n    - reverse_lookup_translator@reverse_radical/g" ./moflice.schema.yaml
-sed -i "s/^(reverse_lookup:)$/reverse_radical:\n  tag: reverse_radical\n  dictionary: radical\n  enable_completion: true\n  prefix: \"ocz\"\n  tips: 〔拆字〕\n  __include: reverse_format\n\n\1/g" ./moflice.schema.yaml
-
+sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./moflice.schema.yaml
+sed -i "s/^\(    - reverse_lookup_translator@reverse_zrlf\)$/\1\n    - reverse_lookup_translator@reverse_radical/g" ./moflice.schema.yaml
+sed -i "s/^\(reverse_lookup:\)$/reverse_radical:\n  tag: reverse_radical\n  dictionary: radical_flypy\n  enable_completion: true\n  prefix: \"ocz\"\n  tips: 〔拆字〕\n  __include: reverse_format\n\n\1/g" ./moflice.schema.yaml
+sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./moflice.schema.yaml
+sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./moflice.schema.yaml
+sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./moflice.schema.yaml
 
 cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
@@ -155,6 +162,9 @@ cd ..
 
 echo Moflice简体設定檔...
 cd moflice-chs
+cp recipe.yaml recipe.yaml.bak
+sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
+
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
 sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
 sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
@@ -170,6 +180,12 @@ sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" .
 sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    Moflice = Moran + Flypy + Ice/g" ./moflice.schema.yaml
 sed -i "s/^    - moran_fixed$/    - moflice_fixed/g" ./moflice.schema.yaml
 sed -i "s/^    - moran_sentence$/    - moflice_sentence/g" ./moflice.schema.yaml
+sed -i "s/^\(    - zrlf\)$/\1\n    - radical/g" ./moflice.schema.yaml
+sed -i "s/^\(    - reverse_lookup_translator@reverse_zrlf\)$/\1\n    - reverse_lookup_translator@reverse_radical/g" ./moflice.schema.yaml
+sed -i "s/^\(reverse_lookup:\)$/reverse_radical:\n  tag: reverse_radical\n  dictionary: radical_flypy\n  enable_completion: true\n  prefix: \"ocz\"\n  tips: 〔拆字〕\n  __include: reverse_format\n\n\1/g" ./moflice.schema.yaml
+sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./moflice.schema.yaml
+sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./moflice.schema.yaml
+sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./moflice.schema.yaml
 
 cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
