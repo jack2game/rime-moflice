@@ -139,7 +139,7 @@ cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
 sed -i "s/^  name: 魔然·輔篩$/  name: Moflice-Aux/g" ./moflice_aux.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_aux.schema.yaml
-sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    Moflice plus aux codes/g" ./moflice_aux.schema.yaml
+sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「Moflice」方案不同。/g" ./moflice_aux.schema.yaml
 
 cp moran_bj.schema.yaml moflice_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: moflice_bj/g" ./moflice_bj.schema.yaml
@@ -191,7 +191,7 @@ cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
 sed -i "s/^  name: 魔然·輔篩$/  name: Moflice-Aux/g" ./moflice_aux.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_aux.schema.yaml
-sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    Moflice plus aux codes/g" ./moflice_aux.schema.yaml
+sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「Moflice」方案不同。/g" ./moflice_aux.schema.yaml
 
 cp moran_bj.schema.yaml moflice_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: moflice_bj/g" ./moflice_bj.schema.yaml
