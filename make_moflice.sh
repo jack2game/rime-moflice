@@ -13,14 +13,15 @@ cp -a ./rime-moran/. ./moflice-cht
 cp ./rime-radical-pinyin/radical.schema.yaml ./moflice-cht
 cp ./rime-radical-pinyin/radical_flypy.dict.yaml ./moflice-cht
 
-rm -rf ./moflice-cht/default.yaml
-rm -rf ./moflice-cht/key_bindings.yaml
-rm -rf ./moflice-cht/punctuation.yaml
 rm -rf ./moflice-cht/.git
 rm -rf ./moflice-cht/.gitignore
 rm -rf ./moflice-cht/README.md
 rm -rf ./moflice-cht/README-en.md
 rm -rf ./moflice-cht/.github/
+mv ./moflice-cht/default.yaml ./schema
+mv ./moflice-cht/key_bindings.yaml ./schema
+mv ./moflice-cht/punctuation.yaml ./schema
+
 
 cp ./rime-moran/tools/data/zrmdb.txt ./tools-additional
 sed -i 's/ /\t/g' ./tools-additional/zrmdb.txt
@@ -88,8 +89,8 @@ rm -rf ./moflice-cht/tools
 rm -rf ./moflice-cht/make_simp_dist.sh
 mkdir -p ./moflice-cht/ice-dicts/
 mkdir -p ./moflice-chs/ice-dicts/
-cp -a ./schema/. ./moflice-cht
-cp -a ./schema/. ./moflice-chs
+cp -a ./schema/default.custom.yaml ./moflice-cht
+cp -a ./schema/default.custom.yaml ./moflice-chs
 
 cd ./tools-additional
 # 生成繁體霧凇
