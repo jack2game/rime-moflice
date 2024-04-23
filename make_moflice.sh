@@ -40,10 +40,9 @@ cd ./rime-moran/tools
 # 轉換繁体詞庫
 echo 轉換繁体詞庫...
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.chars.dict.yaml > ../../moflice-cht/moran.chars.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.essay.dict.yaml > ../../moflice-cht/moran.essay.dict.yaml.bak
+python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.base.dict.yaml > ../../moflice-cht/moran.base.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.tencent.dict.yaml > ../../moflice-cht/moran.tencent.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.moe.dict.yaml > ../../moflice-cht/moran.moe.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.thuocl.dict.yaml > ../../moflice-cht/moran.thuocl.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.computer.dict.yaml > ../../moflice-cht/moran.computer.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.hanyu.dict.yaml > ../../moflice-cht/moran.hanyu.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.words.dict.yaml > ../../moflice-cht/moran.words.dict.yaml.bak
@@ -51,21 +50,19 @@ python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-cht/m
 python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-cht/moran_fixed_simp.dict.yaml > ../../moflice-cht/moran_fixed_simp.dict.yaml.bak
 mv ../../moflice-cht/moran.chars.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.computer.dict.yaml{.bak,}
-mv ../../moflice-cht/moran.essay.dict.yaml{.bak,}
+mv ../../moflice-cht/moran.base.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.hanyu.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.moe.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.tencent.dict.yaml{.bak,}
-mv ../../moflice-cht/moran.thuocl.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.words.dict.yaml{.bak,}
 mv ../../moflice-cht/moran_fixed.dict.yaml{.bak,}
 mv ../../moflice-cht/moran_fixed_simp.dict.yaml{.bak,}
 # 轉換简体詞庫
 echo 轉換简体詞庫...
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.chars.dict.yaml > ../../moflice-chs/moran.chars.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.essay.dict.yaml > ../../moflice-chs/moran.essay.dict.yaml.bak
+python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.base.dict.yaml > ../../moflice-chs/moran.base.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.tencent.dict.yaml > ../../moflice-chs/moran.tencent.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.moe.dict.yaml > ../../moflice-chs/moran.moe.dict.yaml.bak
-python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.thuocl.dict.yaml > ../../moflice-chs/moran.thuocl.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.computer.dict.yaml > ../../moflice-chs/moran.computer.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.hanyu.dict.yaml > ../../moflice-chs/moran.hanyu.dict.yaml.bak
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.words.dict.yaml > ../../moflice-chs/moran.words.dict.yaml.bak
@@ -73,11 +70,10 @@ python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-chs/m
 python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-chs/moran_fixed_simp.dict.yaml > ../../moflice-chs/moran_fixed_simp.dict.yaml.bak
 mv ../../moflice-chs/moran.chars.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.computer.dict.yaml{.bak,}
-mv ../../moflice-chs/moran.essay.dict.yaml{.bak,}
+mv ../../moflice-chs/moran.base.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.hanyu.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.moe.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.tencent.dict.yaml{.bak,}
-mv ../../moflice-chs/moran.thuocl.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.words.dict.yaml{.bak,}
 mv ../../moflice-chs/moran_fixed.dict.yaml{.bak,}
 mv ../../moflice-chs/moran_fixed_simp.dict.yaml{.bak,}
@@ -115,12 +111,12 @@ cp recipe.yaml recipe.yaml.bak
 sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
 
 cp moran.schema.yaml moflice.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: moflice/g" ./moflice.schema.yaml
@@ -167,12 +163,12 @@ cp recipe.yaml recipe.yaml.bak
 sed -i "s/^\(  zrlf\*\)$/\1\n  radical*/g" ./recipe.yaml
 
 cp moran.extended.dict.yaml moran.extended.dict.yaml.bak
-sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
-sed -i "s/\(  - moran\.essay  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_8105      # 8105字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_41448     # 41448字表\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_base     # 基础词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  - ice-dicts\/flypy_zrmdb_ext      # 扩展词库\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_tencent  # 腾讯词向量（大词库，部署时间较长）\n\1/g" ./moran.extended.dict.yaml
+sed -i "s/\(  - moran\.base  \)/  # - ice-dicts\/flypy_zrmdb_others   # 一些杂项 容错音和错字 可以不开\n\1/g" ./moran.extended.dict.yaml
 
 cp moran.schema.yaml moflice.schema.yaml
 sed -i "s/^  schema_id: moran$/  schema_id: moflice/g" ./moflice.schema.yaml
@@ -212,26 +208,3 @@ sed -i "s/^  schema_id: moran_sentence$/  schema_id: moflice_sentence/g" ./mofli
 sed -i "s/^  name: 魔然·整句$/  name: Moflice-Sentence/g" ./moflice_sentence.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_sentence.schema.yaml
 cd ..
-
-# 删除冗餘魔然dict
-# rm ./moflice-cht/moran.chars.dict.yaml
-# rm ./moflice-cht/moran.essay.dict.yaml
-# rm ./moflice-cht/moran.tencent.dict.yaml
-# rm ./moflice-cht/moran.moe.dict.yaml
-# rm ./moflice-cht/moran.thuocl.dict.yaml
-# rm ./moflice-cht/moran.computer.dict.yaml
-# rm ./moflice-cht/moran.hanyu.dict.yaml
-# rm ./moflice-cht/moran.words.dict.yaml
-# rm ./moflice-cht/moran_fixed.dict.yaml
-# rm ./moflice-cht/moran_fixed_simp.dict.yaml
-
-# rm ./moflice-chs/moran.chars.dict.yaml
-# rm ./moflice-chs/moran.essay.dict.yaml
-# rm ./moflice-chs/moran.tencent.dict.yaml
-# rm ./moflice-chs/moran.moe.dict.yaml
-# rm ./moflice-chs/moran.thuocl.dict.yaml
-# rm ./moflice-chs/moran.computer.dict.yaml
-# rm ./moflice-chs/moran.hanyu.dict.yaml
-# rm ./moflice-chs/moran.words.dict.yaml
-# rm ./moflice-chs/moran_fixed.dict.yaml
-# rm ./moflice-chs/moran_fixed_simp.dict.yaml
