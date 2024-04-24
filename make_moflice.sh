@@ -131,6 +131,7 @@ sed -i "s/^\(reverse_lookup:\)$/reverse_radical:\n  tag: reverse_radical\n  dict
 sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./moflice.schema.yaml
 sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./moflice.schema.yaml
 sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./moflice.schema.yaml
+sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./moflice.schema.yaml
 
 cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
@@ -183,6 +184,7 @@ sed -i "s/^\(reverse_lookup:\)$/reverse_radical:\n  tag: reverse_radical\n  dict
 sed -i "s/^\(    - reverse_zrlf\)$/\1\n    - reverse_radical/g" ./moflice.schema.yaml
 sed -i "s/^\(    reverse_zrlf: \"\^olf\[A-Za-z\]\*\$\"\)$/\1\n    reverse_radical: \"^ocz[A-Za-z]*$\"/g" ./moflice.schema.yaml
 sed -i 's/\(    - xform\/^o(lf\)/\1|cz/g' ./moflice.schema.yaml
+sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./moflice.schema.yaml
 
 cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
