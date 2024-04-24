@@ -1,6 +1,6 @@
 schema:
   schema_id: moflice_fixed
-  name: Moflice-Words-and-Phrases
+  name: Moflice字詞
   version: "20240115"
   author:
     - 自然碼發明人：周志農

@@ -85,6 +85,10 @@ rm -rf ./moflice-cht/tools
 rm -rf ./moflice-cht/make_simp_dist.sh
 mkdir -p ./moflice-cht/ice-dicts/
 mkdir -p ./moflice-chs/ice-dicts/
+cp -a ./schema/moran_fixed.dict.yaml ./moflice-cht
+cp -a ./schema/moran_fixed.dict.yaml ./moflice-chs
+cp -a ./schema/moran_fixed_simp.dict.yaml ./moflice-cht
+cp -a ./schema/moran_fixed_simp.dict.yaml ./moflice-chs
 cp -a ./schema/default.custom.yaml ./moflice-cht
 cp -a ./schema/default.custom.yaml ./moflice-chs
 
@@ -135,13 +139,13 @@ sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./
 
 cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
-sed -i "s/^  name: 魔然·輔篩$/  name: Moflice-Aux/g" ./moflice_aux.schema.yaml
+sed -i "s/^  name: 魔然·輔篩$/  name: Moflice輔篩/g" ./moflice_aux.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_aux.schema.yaml
 sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「Moflice」方案不同。/g" ./moflice_aux.schema.yaml
 
 cp moran_bj.schema.yaml moflice_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: moflice_bj/g" ./moflice_bj.schema.yaml
-sed -i "s/^  name: 魔然·並擊G$/  name: Moflice-Dual-Wielding/g" ./moflice_bj.schema.yaml
+sed -i "s/^  name: 魔然·並擊G$/  name: Moflice並擊/g" ./moflice_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_bj.schema.yaml
 sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    Moflice = Moran + Flypy + Ice/g" ./moflice_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - moflice_fixed/g" ./moflice_bj.schema.yaml
@@ -149,12 +153,12 @@ sed -i "s/^    - moran_sentence$/    - moflice_sentence/g" ./moflice_bj.schema.y
 
 cp moran_fixed.schema.yaml moflice_fixed.schema.yaml
 sed -i "s/^  schema_id: moran_fixed$/  schema_id: moflice_fixed/g" ./moflice_fixed.schema.yaml
-sed -i "s/^  name: 魔然·字詞$/  name: Moflice-Words-and-Phrases/g" ./moflice_fixed.schema.yaml
+sed -i "s/^  name: 魔然·字詞$/  name: Moflice字詞/g" ./moflice_fixed.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_fixed.schema.yaml
 
 cp moran_sentence.schema.yaml moflice_sentence.schema.yaml
 sed -i "s/^  schema_id: moran_sentence$/  schema_id: moflice_sentence/g" ./moflice_sentence.schema.yaml
-sed -i "s/^  name: 魔然·整句$/  name: Moflice-Sentence/g" ./moflice_sentence.schema.yaml
+sed -i "s/^  name: 魔然·整句$/  name: Moflice整句/g" ./moflice_sentence.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_sentence.schema.yaml
 cd ..
 
@@ -188,13 +192,13 @@ sed -i "s/^  enable_quick_code_hint: false$/  enable_quick_code_hint: true/g" ./
 
 cp moran_aux.schema.yaml moflice_aux.schema.yaml
 sed -i "s/^  schema_id: moran_aux$/  schema_id: moflice_aux/g" ./moflice_aux.schema.yaml
-sed -i "s/^  name: 魔然·輔篩$/  name: Moflice-Aux/g" ./moflice_aux.schema.yaml
+sed -i "s/^  name: 魔然·輔篩$/  name: Moflice輔篩/g" ./moflice_aux.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_aux.schema.yaml
 sed -i "s/^    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「魔然」方案不同。$/    在輸入完畢雙拼碼後，可以輸入輔助碼篩選候選項，與「Moflice」方案不同。/g" ./moflice_aux.schema.yaml
 
 cp moran_bj.schema.yaml moflice_bj.schema.yaml
 sed -i "s/^  schema_id: moran_bj$/  schema_id: moflice_bj/g" ./moflice_bj.schema.yaml
-sed -i "s/^  name: 魔然·並擊G$/  name: Moflice-Dual-Wielding/g" ./moflice_bj.schema.yaml
+sed -i "s/^  name: 魔然·並擊G$/  name: Moflice並擊/g" ./moflice_bj.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_bj.schema.yaml
 sed -i "s/^    爲傳承字設計的自然碼及輔助碼智能整句輸入方案。$/    Moflice = Moran + Flypy + Ice/g" ./moflice_bj.schema.yaml
 sed -i "s/^    - moran_fixed$/    - moflice_fixed/g" ./moflice_bj.schema.yaml
@@ -202,11 +206,11 @@ sed -i "s/^    - moran_sentence$/    - moflice_sentence/g" ./moflice_bj.schema.y
 
 cp moran_fixed.schema.yaml moflice_fixed.schema.yaml
 sed -i "s/^  schema_id: moran_fixed$/  schema_id: moflice_fixed/g" ./moflice_fixed.schema.yaml
-sed -i "s/^  name: 魔然·字詞$/  name: Moflice-Words-and-Phrases/g" ./moflice_fixed.schema.yaml
+sed -i "s/^  name: 魔然·字詞$/  name: Moflice字詞/g" ./moflice_fixed.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_fixed.schema.yaml
 
 cp moran_sentence.schema.yaml moflice_sentence.schema.yaml
 sed -i "s/^  schema_id: moran_sentence$/  schema_id: moflice_sentence/g" ./moflice_sentence.schema.yaml
-sed -i "s/^  name: 魔然·整句$/  name: Moflice-Sentence/g" ./moflice_sentence.schema.yaml
+sed -i "s/^  name: 魔然·整句$/  name: Moflice整句/g" ./moflice_sentence.schema.yaml
 sed -i "s/^\(    - 方案製作：ksqsf\)$/\1\n    - Integrator：jack2game/g" ./moflice_sentence.schema.yaml
 cd ..
