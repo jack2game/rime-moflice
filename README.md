@@ -5,4 +5,4 @@
 - The human-curated, one of the largest words/sentences library for Chinese language, [rime-ice (雾凇拼音)](https://github.com/iDvel/rime-ice), is bolted onto this repo, providing a seamless input experience with the ease of typing.
 
 # Additional Features
-- `ocz` = reverse lookup with Radical + Components, for example, `犇` = `牛牛牛` = `nqnqnq`
+- `ocz` = reverse lookup with Radical + Components, for example, `犇` = `牛牛牛` = `nqnqnq`. This function is based on [rime-radical-pinyin](https://github.com/mirtlecn/rime-radical-pinyin)
