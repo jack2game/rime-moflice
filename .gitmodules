@@ -1,9 +1,9 @@
-[submodule "rime-moran"]
-	path = rime-moran
-	url = https://github.com/ksqsf/rime-moran
 [submodule "rime-radical-pinyin"]
 	path = rime-radical-pinyin
 	url = https://github.com/jack2game/rime-radical-pinyin.git
 [submodule "rime-ice"]
 	path = rime-ice
-	url = https://github.com/iDvel/rime-ice.git
+	url = https://github.com/jack2game/rime-ice.git
+[submodule "rime-moran"]
+	path = rime-moran
+	url = https://github.com/jack2game/rime-moran.git
