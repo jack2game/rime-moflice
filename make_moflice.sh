@@ -85,10 +85,10 @@ rm -rf ./moflice-cht/tools
 rm -rf ./moflice-cht/make_simp_dist.sh
 mkdir -p ./moflice-cht/ice-dicts/
 mkdir -p ./moflice-chs/ice-dicts/
-cp -a ./schema/moran_fixed.dict.yaml ./moflice-cht
-cp -a ./schema/moran_fixed.dict.yaml ./moflice-chs
-cp -a ./schema/moran_fixed_simp.dict.yaml ./moflice-cht
-cp -a ./schema/moran_fixed_simp.dict.yaml ./moflice-chs
+# cp -a ./schema/moran_fixed.dict.yaml ./moflice-cht
+# cp -a ./schema/moran_fixed.dict.yaml ./moflice-chs
+# cp -a ./schema/moran_fixed_simp.dict.yaml ./moflice-cht
+# cp -a ./schema/moran_fixed_simp.dict.yaml ./moflice-chs
 cp -a ./schema/default.custom.yaml ./moflice-cht
 cp -a ./schema/default.custom.yaml ./moflice-chs
 
