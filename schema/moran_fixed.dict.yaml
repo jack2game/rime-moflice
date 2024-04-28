@@ -55675,6 +55675,7 @@ encoder:
 賊眼	zwyj
 賊贓	zwzh
 賊子	zwzi
+嘞	lwk
 
 
 # Some words for testing...
@@ -55924,3 +55925,22 @@ encoder:
 鍆	ocmd
 鍩	ocno
 鐒	oclr
+
+
+##隨心碼
+#（本質上是無理碼）
+越	yw		#手感強於ytz
+莊	vlg		#來自簡化字寫法 庄；以空碼加
+豬	vuq		#來自簡化字寫法 猪；以空碼加
+議	yiyw		#取末尾的「我」
+誼	yiyq		#取末尾的「且」
+左	zou		#取上部
+右	yzu		#取上部
+須	xup		#取左
+味	wc		#跳過韻母
+圍	wcw		#跳過韻母
+凄	qidn		#取「女」
+沏	qidt		#qid + tea
+詩	uiyc		#取末尾小部件
+謄	tgy		#簡化字「誊」
+# ⚠️ 請注意：機器轉換過程無法處理無理碼，這些編碼仍需手動處理（或刪除）
