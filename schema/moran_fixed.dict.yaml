@@ -13055,6 +13055,7 @@ encoder:
 後排	hzpd
 厚朴	hzpo
 猴	hzq
+犼	hzqh
 後期	hzqi
 後勤	hzqb
 猴拳	hzqr
@@ -13901,6 +13902,7 @@ encoder:
 旱年	hjnm
 含怒	hjnu
 旱	hjo
+晗	hjoh
 暵	hjoh
 睅	hjoh
 肣	hjoj
@@ -15143,7 +15145,7 @@ encoder:
 互訪	hufh
 抇	hufo
 護膚	hufu
-戲	hug
+弧	hug
 湖光	hugl
 弧	hugg
 互感	hugj
@@ -26796,6 +26798,7 @@ encoder:
 勒緊	lwjb
 類聚	lwju
 累加	lwjx
+嘞	lwk
 累垮	lwkx
 勒	lwl
 累了	lwle
@@ -35993,7 +35996,7 @@ encoder:
 撕毀	sihv
 絲滑	sihx
 四化	sihx
-蟴	sii
+厮	sii
 死叉	siia
 絲綢	siiz
 撕扯	siie
@@ -36004,6 +36007,7 @@ encoder:
 思春	siiy
 四川	siir
 四重	siis
+蟴	siis
 四處	siiu
 蜤	siix
 斯	sij
@@ -36644,6 +36648,7 @@ encoder:
 算作	srzo
 送	ss
 訟案	ssan
+宋	ssb
 鬆綁	ssbh
 慫包	ssbc
 松柏	ssbd
@@ -39531,7 +39536,7 @@ encoder:
 鐵	tpj
 鐵腳	tpjn
 鐵匠	tpjl
-貼己	tpji
+鐵騎	tpji
 貼近	tpjb
 鐵軍	tpjy
 帖	tpjv
@@ -39556,7 +39561,6 @@ encoder:
 貼譜	tppu
 鐵鍬	tpqn
 鐵器	tpqi
-鐵騎	tpqi
 貼錢	tpqm
 鐵球	tpqq
 鐵拳	tpqr
@@ -55072,6 +55076,7 @@ encoder:
 做出	zoiu
 左腳	zojn
 座機	zoji
+坐騎	zoji
 左鍵	zojm
 作踐	zojm
 左近	zojb
@@ -55675,8 +55680,8 @@ encoder:
 賊眼	zwyj
 賊贓	zwzh
 賊子	zwzi
-嘞	lwk
 
+輕騎	qkji
 
 # Some words for testing...
 靈夢	lkmg
