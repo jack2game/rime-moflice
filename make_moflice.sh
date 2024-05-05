@@ -48,6 +48,7 @@ python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.h
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-cht/moran.words.dict.yaml > ../../moflice-cht/moran.words.dict.yaml.bak
 python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-cht/moran_fixed.dict.yaml > ../../moflice-cht/moran_fixed.dict.yaml.bak
 python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-cht/moran_fixed_simp.dict.yaml > ../../moflice-cht/moran_fixed_simp.dict.yaml.bak
+python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-cht/zrlf.dict.yaml > ../../moflice-cht/zrlf.dict.yaml.bak
 mv ../../moflice-cht/moran.chars.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.computer.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.base.dict.yaml{.bak,}
@@ -57,6 +58,7 @@ mv ../../moflice-cht/moran.tencent.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.words.dict.yaml{.bak,}
 mv ../../moflice-cht/moran_fixed.dict.yaml{.bak,}
 mv ../../moflice-cht/moran_fixed_simp.dict.yaml{.bak,}
+mv ../../moflice-cht/zrlf.dict.yaml{.bak,}
 # 轉換简体詞庫
 echo 轉換简体詞庫...
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.chars.dict.yaml > ../../moflice-chs/moran.chars.dict.yaml.bak
@@ -68,6 +70,7 @@ python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.h
 python3 schemagen.py convert-sp --to=flypy --rime-dict=../../moflice-chs/moran.words.dict.yaml > ../../moflice-chs/moran.words.dict.yaml.bak
 python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-chs/moran_fixed.dict.yaml > ../../moflice-chs/moran_fixed.dict.yaml.bak
 python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-chs/moran_fixed_simp.dict.yaml > ../../moflice-chs/moran_fixed_simp.dict.yaml.bak
+python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-chs/zrlf.dict.yaml > ../../moflice-chs/zrlf.dict.yaml.bak
 mv ../../moflice-chs/moran.chars.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.computer.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.base.dict.yaml{.bak,}
@@ -77,6 +80,7 @@ mv ../../moflice-chs/moran.tencent.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.words.dict.yaml{.bak,}
 mv ../../moflice-chs/moran_fixed.dict.yaml{.bak,}
 mv ../../moflice-chs/moran_fixed_simp.dict.yaml{.bak,}
+mv ../../moflice-chs/zrlf.dict.yaml{.bak,}
 cd ..
 cd ..
 
