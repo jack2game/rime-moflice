@@ -70,6 +70,62 @@ def lunapy2flypy(pinyin: str):
     return shengmu + yunmu_dict.get(yunmu, yunmu)
 
 
+def lunapy2zrm(pinyin: str):
+    r""" 全拼拼音转为自然双拼码
+    adapted from: https://github.com/boomker/rime-flypy-xhfast/blob/15664c597644bd41410ec4595cece88a6452a1bf/scripts/flypy_dict_generator_new.py
+    """
+    shengmu_dict = {"zh": "v", "ch": "i", "sh": "u"}
+    yunmu_dict = {
+        "ou": "b",
+        "iao": "c",
+        "uang": "d",
+        "iang": "d",
+        "en": "f",
+        "eng": "g",
+        "ang": "h",
+        "an": "j",
+        "ao": "k",
+        "ai": "l",
+        "ian": "m",
+        "in": "n",
+        "uo": "o",
+        "un": "p",
+        "iu": "q",
+        "uan": "r",
+        "van": "r",
+        "iong": "s",
+        "ong": "s",
+        "ue": "t",
+        "ve": "t",
+        "ui": "v",
+        "ua": "w",
+        "ia": "w",
+        "ie": "x",
+        "uai": "y",
+        "ing": "y",
+        "ei": "z",
+    }
+    zero = {
+        "a": "aa",
+        "an": "an",
+        "ai": "ai",
+        "ang": "ah",
+        "o": "oo",
+        "ou": "ou",
+        "e": "ee",
+        "n": "en",
+        "en": "en",
+        "eng": "eg",
+    }
+    if pinyin in zero:
+        return zero[pinyin]
+    if pinyin[1] == "h" and len(pinyin) > 2:
+        shengmu, yunmu = pinyin[:2], pinyin[2:]
+        shengmu = shengmu_dict[shengmu]
+    else:
+        shengmu, yunmu = pinyin[:1], pinyin[1:]
+    return shengmu + yunmu_dict.get(yunmu, yunmu)
+
 def get_pinyin_fn(schema: str):
     schema = schema.lower()
     if schema in "quanpin lunapy luna_pinyin none".split():
@@ -79,7 +135,7 @@ def get_pinyin_fn(schema: str):
     if schema in "flypy xh xhup".split():
         return lunapy2flypy
     if schema in "zrm zrup".split():
-        raise NotImplementedError("Pinyin schema 'zrm' not implemented.")
+        raise lunapy2zrm
 
 
 def get_shape_dict(schema: str):
