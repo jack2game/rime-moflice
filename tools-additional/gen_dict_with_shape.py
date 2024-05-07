@@ -163,10 +163,15 @@ def rewrite_row(row: list, code_fn: callable, traditional: bool):
         print(row)
         row[0] = "#" + row[0]
         return row
-    if "干" in zh_chars and "qian" in pinyin_list:
-        zh_chars = zh_chars.replace("干", "乾")
-    code_list = [code_fn(py, zi) for (py, zi) in zip(pinyin_list, zh_chars)]
-    row[0] = zh_chars
+    new_zh_chars = []
+    for i, char in enumerate(zh_chars):
+        if char == "干" and pinyin_list[i] == "qian":
+            new_zh_chars.append("乾")
+        else:
+            new_zh_chars.append(char)
+    new_zh_chars = "".join(new_zh_chars)
+    code_list = [code_fn(py, zi) for (py, zi) in zip(pinyin_list, new_zh_chars)]
+    row[0] = new_zh_chars
     row[1] = " ".join(code_list)
     return row
 
