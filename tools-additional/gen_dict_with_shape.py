@@ -154,17 +154,18 @@ def rewrite_row(row: list, code_fn: callable, traditional: bool):
     zh_chars = row[0]
     # eg. '安娜·卡列尼娜' -> '安娜卡列尼娜'
     zh_chars = re.sub("[;·，。；：“”‘’《》（）！？、…—–]", "", zh_chars)
-    # zh_chars = opencc_t2s.convert(zh_chars)  # '三觭龍' -> '三觭龙'
+    if traditional:
+        zh_chars = opencc_s2t.convert(zh_chars)
+    else:
+        zh_chars = opencc_t2s.convert(zh_chars)  # '三觭龍' -> '三觭龙'
     pinyin_list = row[1].split()  # ['san', 'ji', 'long']
     if len(zh_chars) != len(pinyin_list):  # failure case
         print(row)
         row[0] = "#" + row[0]
         return row
-    # ['sj[hh', 'ji[[', 'ls[yp']
     code_list = [code_fn(py, zi) for (py, zi) in zip(pinyin_list, zh_chars)]
-    row[1] = " ".join(code_list)  # 'sj[hh ji[[ ls[yp'
-    # if traditional:
-        # row[0] = opencc_s2t.convert(zh_chars)
+    row[0] = zh_chars
+    row[1] = " ".join(code_list)
     return row
 
 
