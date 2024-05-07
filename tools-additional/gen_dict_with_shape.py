@@ -163,6 +163,8 @@ def rewrite_row(row: list, code_fn: callable, traditional: bool):
         print(row)
         row[0] = "#" + row[0]
         return row
+    if "干" in zh_chars and "qian" in pinyin_list:
+        zh_chars.replace("干", "乾")
     code_list = [code_fn(py, zi) for (py, zi) in zip(pinyin_list, zh_chars)]
     row[0] = zh_chars
     row[1] = " ".join(code_list)
@@ -198,8 +200,6 @@ def main():
         rows = list(csv.reader(f, delimiter="\t", quotechar="`"))
 
     def code_fn(pinyin, hanzi):
-        if hanzi == "干" and pinyin == "qian":
-            hanzi = "乾"
         return pinyin_fn(pinyin) + delim + shape_dict.get(hanzi, delim)
     out_rows = [rewrite_row(row, code_fn, traditional) for row in rows]
 
