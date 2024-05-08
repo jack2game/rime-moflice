@@ -3763,7 +3763,7 @@ encoder:
 慈善	ciuj
 祠	cius
 次數	ciuu
-此	civ
+雌	civ
 雌	civc
 磁針	civf
 辭章	civh
@@ -4837,8 +4837,7 @@ encoder:
 脆棗	cvzc
 催租	cvzu
 趡	cvzv
-的	d	debu	10000
-打	da
+的	d	打	da
 大	daa
 大礙	daai
 答案	daan
@@ -8330,6 +8329,8 @@ encoder:
 鞥	eg
 誒	ei
 誒	eiy
+二〇〇	ellk
+二〇一	elyi
 唔	em
 呣	emk
 嘸	emkw
@@ -20288,6 +20289,7 @@ encoder:
 儘早	jbzc
 盡在	jbzd
 禁阻	jbzu
+幾	jo
 均	jy
 軍	jyb
 峻拔	jyba
@@ -27351,7 +27353,6 @@ encoder:
 孟夏	mgxx
 夢醒	mgxk
 猛醒	mgxk
-霿	mgy
 萌芽	mgya
 夢遊	mgyz
 盟友	mgyz
@@ -27361,6 +27362,7 @@ encoder:
 雺	mgym
 鱦	mgym
 蒙陰	mgyb
+霿	mgyo
 蒙冤	mgyr
 盟員	mgyr
 盟約	mgyt
@@ -35723,7 +35725,7 @@ encoder:
 銳增	rvzg
 枘鑿	rvzc
 挼	rxf
-三	s	sjaa
+忍一時風平浪靜，忍一時風平浪靜，三	s	sjaa
 撒	sa
 撒把	saba
 灑遍	sabm
@@ -45467,7 +45469,7 @@ encoder:
 柱狀	vuvl
 竺	vuve
 助陣	vuvf
-筑	vuvg
+重賞之下，筑	vuvg
 主政	vuvg
 主張	vuvh
 住址	vuvi
@@ -45580,7 +45582,7 @@ encoder:
 腏	vvou
 追捧	vvpg
 追求	vvqq
-贅肉	vvrz
+智者千慮，贅肉	vvrz
 追認	vvrf
 墜入	vvru
 綴	vvs
@@ -45668,7 +45670,7 @@ encoder:
 拽起	vkqi
 拽住	vkvu
 拽拽	vkvk
-跩	vkz
+睜一隻眼，跩	vkz
 這	vw
 我	w	wopd
 爲	w	wzvd
@@ -46763,6 +46765,7 @@ encoder:
 物色	wuse
 武僧	wusg
 無私	wusi
+無線	wusm
 無所	wuso
 無損	wusy
 武松	wuss
@@ -46831,8 +46834,8 @@ encoder:
 無效	wuxn
 五香	wuxl
 無錫	wuxi
-無線	wuxm
 無限	wuxm
+無線	wuxm
 誣陷	wuxm
 無心	wuxb
 午休	wuxq
@@ -50344,8 +50347,7 @@ encoder:
 性子	xkzi
 星座	xkzo
 行蹤	xkzs
-一	y	yiaa	100
-又	y	ybad
+一	y	又	y	ybad
 呀	ya
 亞	yaa
 亞	yaaa
@@ -50749,6 +50751,7 @@ encoder:
 纋	yzs
 有色	yzse
 憂思	yzsi
+有線	yzsm
 有所	yzso
 有損	yzsy
 油松	yzss
@@ -51044,7 +51047,7 @@ encoder:
 野營	yeyk
 葉子	yezi
 椰棗	yezc
-樣	yh
+一分耕耘，樣	yh
 羊	yh
 央	yha
 癢	yhb
@@ -52807,7 +52810,7 @@ encoder:
 運載	yyzd
 孕	yyzn
 運作	yyzo
-元	yr
+以其人之道，元	yr
 圓	yr
 冤案	yran
 冤	yrb
@@ -52821,7 +52824,7 @@ encoder:
 院部	yrbu
 援兵	yrbk
 惌	yrby
-苑	yrc
+用人不疑，苑	yrc
 芫	yrcy
 蒝	yrcy
 蒬	yrcy
@@ -53024,7 +53027,7 @@ encoder:
 圓錐	yrvv
 瑗	yrw
 原文	yrwf
-願望	yrwh
+一日爲師，願望	yrwh
 冤枉	yrwh
 員外	yrwd
 原味	yrww
@@ -53809,7 +53812,7 @@ encoder:
 逾	yuzy
 踰	yuzy
 迂	yuzy
-應	yk
+一朝被蛇咬，以小人之心，應	yk
 贏	ykb
 應標	ykbn
 英鎊	ykbh
