@@ -8330,6 +8330,8 @@ encoder:
 鞥	eg
 誒	ei
 誒	eiy
+二〇〇	ellk
+二〇一	elyi
 唔	em
 呣	emk
 嘸	emkw
@@ -35724,6 +35726,8 @@ encoder:
 銳增	rvzg
 枘鑿	rvzc
 挼	rxf
+忍一時風平浪靜，退一步海闊天高	ryug
+忍一時風平浪靜，退一步海闊天空	ryuk
 三	s	sjaa
 撒	sa
 撒把	saba
@@ -45468,6 +45472,7 @@ encoder:
 柱狀	vuvl
 竺	vuve
 助陣	vuvf
+重賞之下，必有勇夫	vuvf
 筑	vuvg
 主政	vuvg
 主張	vuvh
@@ -45581,6 +45586,7 @@ encoder:
 腏	vvou
 追捧	vvpg
 追求	vvqq
+智者千慮，必有一失	vvqu
 贅肉	vvrz
 追認	vvrf
 墜入	vvru
@@ -45669,6 +45675,7 @@ encoder:
 拽起	vkqi
 拽住	vkvu
 拽拽	vkvk
+睜一隻眼，閉一隻眼	vyvy
 跩	vkz
 這	vw
 我	w	wopd
@@ -51047,6 +51054,7 @@ encoder:
 野營	yeyk
 葉子	yezi
 椰棗	yezc
+一分耕耘，一分收穫	yfgh
 樣	yh
 羊	yh
 央	yha
@@ -52810,6 +52818,7 @@ encoder:
 運載	yyzd
 孕	yyzn
 運作	yyzo
+以其人之道，還治其人之身	yqru
 元	yr
 圓	yr
 冤案	yran
@@ -52824,6 +52833,7 @@ encoder:
 院部	yrbu
 援兵	yrbk
 惌	yrby
+用人不疑，疑人不用	yrby
 苑	yrc
 芫	yrcy
 蒝	yrcy
@@ -53027,6 +53037,7 @@ encoder:
 圓錐	yrvv
 瑗	yrw
 原文	yrwf
+一日爲師，終生爲父	yrwf
 願望	yrwh
 冤枉	yrwh
 員外	yrwd
@@ -53812,6 +53823,8 @@ encoder:
 逾	yuzy
 踰	yuzy
 迂	yuzy
+一朝被蛇咬，十年怕井繩	yvbu
+以小人之心，度君子之腹	yxrf
 應	yk
 贏	ykb
 應標	ykbn
