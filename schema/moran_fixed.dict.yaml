@@ -4837,7 +4837,8 @@ encoder:
 脆棗	cvzc
 催租	cvzu
 趡	cvzv
-的	d	打	da
+的	d	debu	10000
+打	da
 大	daa
 大礙	daai
 答案	daan
@@ -8329,8 +8330,6 @@ encoder:
 鞥	eg
 誒	ei
 誒	eiy
-二〇〇	ellk
-二〇一	elyi
 唔	em
 呣	emk
 嘸	emkw
@@ -35725,7 +35724,7 @@ encoder:
 銳增	rvzg
 枘鑿	rvzc
 挼	rxf
-忍一時風平浪靜，忍一時風平浪靜，三	s	sjaa
+三	s	sjaa
 撒	sa
 撒把	saba
 灑遍	sabm
@@ -45469,7 +45468,7 @@ encoder:
 柱狀	vuvl
 竺	vuve
 助陣	vuvf
-重賞之下，筑	vuvg
+筑	vuvg
 主政	vuvg
 主張	vuvh
 住址	vuvi
@@ -45582,7 +45581,7 @@ encoder:
 腏	vvou
 追捧	vvpg
 追求	vvqq
-智者千慮，贅肉	vvrz
+贅肉	vvrz
 追認	vvrf
 墜入	vvru
 綴	vvs
@@ -45670,7 +45669,7 @@ encoder:
 拽起	vkqi
 拽住	vkvu
 拽拽	vkvk
-睜一隻眼，跩	vkz
+跩	vkz
 這	vw
 我	w	wopd
 爲	w	wzvd
@@ -50347,7 +50346,8 @@ encoder:
 性子	xkzi
 星座	xkzo
 行蹤	xkzs
-一	y	又	y	ybad
+一	y	yiaa	100
+又	y	ybad
 呀	ya
 亞	yaa
 亞	yaaa
@@ -51047,7 +51047,7 @@ encoder:
 野營	yeyk
 葉子	yezi
 椰棗	yezc
-一分耕耘，樣	yh
+樣	yh
 羊	yh
 央	yha
 癢	yhb
@@ -52810,7 +52810,7 @@ encoder:
 運載	yyzd
 孕	yyzn
 運作	yyzo
-以其人之道，元	yr
+元	yr
 圓	yr
 冤案	yran
 冤	yrb
@@ -52824,7 +52824,7 @@ encoder:
 院部	yrbu
 援兵	yrbk
 惌	yrby
-用人不疑，苑	yrc
+苑	yrc
 芫	yrcy
 蒝	yrcy
 蒬	yrcy
@@ -53027,7 +53027,7 @@ encoder:
 圓錐	yrvv
 瑗	yrw
 原文	yrwf
-一日爲師，願望	yrwh
+願望	yrwh
 冤枉	yrwh
 員外	yrwd
 原味	yrww
@@ -53812,7 +53812,7 @@ encoder:
 逾	yuzy
 踰	yuzy
 迂	yuzy
-一朝被蛇咬，以小人之心，應	yk
+應	yk
 贏	ykb
 應標	ykbn
 英鎊	ykbh
