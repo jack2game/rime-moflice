@@ -50,11 +50,11 @@ python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-cht/m
 python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-cht/moran_fixed_simp.dict.yaml > ../../moflice-cht/moran_fixed_simp.dict.yaml.bak
 python3 ../../tools-additional/convert_sp.py -i ../../moflice-cht/zrlf.dict.yaml -o ../../moflice-cht/zrlf.dict.yaml.bak
 mv ../../moflice-cht/moran.chars.dict.yaml{.bak,}
-mv ../../moflice-cht/moran.computer.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.base.dict.yaml{.bak,}
-mv ../../moflice-cht/moran.hanyu.dict.yaml{.bak,}
-mv ../../moflice-cht/moran.moe.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.tencent.dict.yaml{.bak,}
+mv ../../moflice-cht/moran.moe.dict.yaml{.bak,}
+mv ../../moflice-cht/moran.computer.dict.yaml{.bak,}
+mv ../../moflice-cht/moran.hanyu.dict.yaml{.bak,}
 mv ../../moflice-cht/moran.words.dict.yaml{.bak,}
 mv ../../moflice-cht/moran_fixed.dict.yaml{.bak,}
 mv ../../moflice-cht/moran_fixed_simp.dict.yaml{.bak,}
@@ -72,11 +72,11 @@ python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-chs/m
 python3 schemagen.py convert-fixed-sp --to=flypy --rime-dict=../../moflice-chs/moran_fixed_simp.dict.yaml > ../../moflice-chs/moran_fixed_simp.dict.yaml.bak
 python3 ../../tools-additional/convert_sp.py -i ../../moflice-chs/zrlf.dict.yaml -o ../../moflice-chs/zrlf.dict.yaml.bak
 mv ../../moflice-chs/moran.chars.dict.yaml{.bak,}
-mv ../../moflice-chs/moran.computer.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.base.dict.yaml{.bak,}
-mv ../../moflice-chs/moran.hanyu.dict.yaml{.bak,}
-mv ../../moflice-chs/moran.moe.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.tencent.dict.yaml{.bak,}
+mv ../../moflice-chs/moran.moe.dict.yaml{.bak,}
+mv ../../moflice-chs/moran.computer.dict.yaml{.bak,}
+mv ../../moflice-chs/moran.hanyu.dict.yaml{.bak,}
 mv ../../moflice-chs/moran.words.dict.yaml{.bak,}
 mv ../../moflice-chs/moran_fixed.dict.yaml{.bak,}
 mv ../../moflice-chs/moran_fixed_simp.dict.yaml{.bak,}
