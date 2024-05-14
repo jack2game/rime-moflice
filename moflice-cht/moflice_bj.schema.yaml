@@ -19,6 +19,7 @@ schema:
     - moflice_fixed
     - moflice_sentence
     - moran_reverse
+    - moran_charset
     - moran_english
     #- moran_japanese # 日語混輸
     - stroke

@@ -2,8 +2,6 @@
 # encoding: utf-8
 # license: CC-BY-SA 4.0
 
-# 注意：三字詞編碼應該留空，否則 moran_fixed_aabc 詞庫無法生成 AaBC 格式編碼！
-
 ---
 name: moran_fixed
 version: "20240414"
@@ -24,6 +22,38 @@ encoder:
       formula: "AaBaCaZa"
 ...
 
+#----------標點符號----------#
+# 第一排
+：“	;q
+？	;w
+（	;e
+）	;r
+！	;t
+@	;i
+~	;u
+〖	;o
+〗	;p
+# 第二排
+/	;a
+……	;s
+·	;d
+“	;f
+”	;g
+『	;h
+』	;j
+——	;k
+%	;l
+；	;;
+# 第三排
+。”	;z
+？”	;x
+！”	;c
+【	;v
+】	;b
+《	;n
+》	;m
+
+#----------詞庫----------#
 啊	a	aaka
 啊	aa
 阿爸	aaba
@@ -39148,11 +39178,12 @@ encoder:
 痛惡	tswu
 同爲	tsww
 同位	tsww
-衕	tsx
+慟	tsx
 通宵	tsxn
 通向	tsxl
 慟	tsxd
 痛惜	tsxi
+衕	tsxi
 銅線	tsxm
 通縣	tsxm
 通信	tsxb
@@ -39160,6 +39191,7 @@ encoder:
 通訊	tsxy
 銅鏽	tsxq
 同學	tsxt
+衕	tsxt
 統轄	tsxx
 童鞋	tsxp
 通行	tsxk
@@ -41299,7 +41331,6 @@ encoder:
 師傅	uifu
 拭	uifu
 師父	uifu
-石佛	uifu
 施	uify
 是非	uifw
 試飛	uifw
@@ -50288,6 +50319,7 @@ encoder:
 醒腦	xknc
 婞	xknx
 星	xko
+省	xkou
 腥	xkox
 形	xkp
 形旁	xkph

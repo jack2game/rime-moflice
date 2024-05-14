@@ -23,6 +23,38 @@ encoder:
       formula: "AaBaCaZa"
 ...
 
+#----------标点符号----------#
+# 第一排
+：“	;q
+？	;w
+（	;e
+）	;r
+！	;t
+@	;i
+~	;u
+〖	;o
+〗	;p
+# 第二排
+/	;a
+……	;s
+·	;d
+“	;f
+”	;g
+『	;h
+』	;j
+——	;k
+%	;l
+；	;;
+# 第三排
+。”	;z
+？”	;x
+！”	;c
+【	;v
+】	;b
+《	;n
+》	;m
+
+#----------词库----------#
 啊	a	aaka
 阿	aa
 阿爸	aaba
@@ -1486,7 +1518,7 @@ encoder:
 搬砖	bjvr
 版主	bjvu
 爿	bjvu
-班	bjw
+斑	bjw
 板瓦	bjwa
 斑纹	bjwf
 攽	bjwf
@@ -39651,8 +39683,8 @@ encoder:
 师范	uifj
 石佛	uifo
 师傅	uifu
-师父	uifu
 拭	uifu
+师父	uifu
 擿	uifu
 是非	uifw
 试飞	uifw
